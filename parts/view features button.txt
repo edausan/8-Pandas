@@ -1,0 +1,1 @@
+<button type="button" name="button" class="btn btn-info view-feat">View features</button>

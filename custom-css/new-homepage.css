@@ -1,0 +1,325 @@
+
+/* Latest News 2*/
+
+.latest-news-2
+{
+  margin: 20px 0px;
+  border: 2px solid red;
+  position: relative;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.latest-news-2 .news-title {
+  background: red;
+  padding: 10px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.latest-news-2 .news-title label {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.latest-news-2 .news {
+  vertical-align: middle;
+  display: inline-block;
+  word-wrap: break-word;
+  width: 100%;
+  text-align: justify;
+  padding: 15px;
+}
+
+.latest-news-2 .news p {
+  vertical-align: middle;
+  display: inline-block;
+  width: 95%;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  overflow: hidden;
+
+}
+
+.latest-news-2 .news p a {
+  color: black;
+  display: inline-block;
+  font-size: 100%;
+}
+
+.latest-news-2 .news label {
+  display: inline-block;
+}
+
+.latest-news-2 hr {
+  display: none;
+  background: #999;
+  height: 1px;
+  margin: 0px 15px 10px;
+  opacity: .7;
+}
+
+.latest-news-2 .controls {
+  display: block;
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.latest-news-2 .controls .ctrl-btn {
+  vertical-align: middle;
+  position: relative;
+  width: calc(1em + 8px);
+  height: calc(1em + 8px);
+  border-radius: 100%;
+  background: red;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.latest-news-2 .controls .ctrl-btn i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: calc(1em - 4px);
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+.latest-news-2 .controls .ctrl-btn .fa-play {
+  padding-left: 3px;
+}
+
+.latest-news-2 .controls .ctrl-btn:hover {
+  background: #990000;
+}
+
+
+
+
+/* New Circles */
+
+.circle-wrapper
+{
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.circle-wrapper .circles {
+  position: relative;
+  padding: 0px;
+  cursor: pointer;
+  -webkit-transition: 150ms ease-in-out;
+  -o-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+  background: white;
+  border-radius: 3px;
+  vertical-align: top;
+  text-align: center;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+
+
+
+.circle-wrapper .circles:hover .diamond {
+  -webkit-transform: translateX(-50%) scale(1.2);
+  -moz-transform: translateX(-50%) scale(1.2);
+  -o-transform: translateX(-50%) scale(1.2);
+  transform: translateX(-50%) scale(1.2);
+
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.circle-wrapper .circles .details {
+  position: relative;
+  -webkit-transition: 150ms ease-in-out;
+  -o-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+
+  width: 100%;
+  font-size: 60%;
+}
+
+.circle-wrapper .circles .details label {
+  color: #1c619c;
+  text-transform: uppercase;
+  font-size: calc(1em + 6px);
+  -webkit-transition: 150ms ease-in-out;
+  -o-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+}
+
+
+.circle-wrapper .circles .diamond
+{
+  position: relative;
+  top: 0;
+  left: 50%;
+  background: orange;
+  border-radius: 100%;
+  -webkit-transform: translateX(-50%) scale(1);
+  -moz-transform: translateX(-50%) scale(1);
+  -o-transform: translateX(-50%) scale(1);
+  transform: translateX(-50%) scale(1);
+  margin-bottom: 20px;
+  z-index: 1000;
+  -moz-transition: 150ms ease-in-out;
+  -webkit-transition: 150ms ease-in-out;
+  -o-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+  transform-origin: center;
+
+  width: 80px;
+  height: 80px;
+}
+
+.circle-wrapper .circles img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 60%;
+  z-index: 1001;
+  -webkit-transition: 150ms ease-in-out;
+  -o-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+}
+
+.circle-wrapper .circles #colored-icon {
+  opacity: 0;
+}
+
+.circle-wrapper #code .diamond, .circle-wrapper #code .cart-body-wrapper .cart-wrapper .diamond2, .cart-body-wrapper .cart-wrapper .circle-wrapper #code .diamond2 {
+  background: #2bb7ea;
+  border: 5px solid #2bb7ea;
+}
+
+.circle-wrapper #code label {
+  color: #2bb7ea;
+}
+
+.circle-wrapper #code:hover .diamond, .circle-wrapper #code:hover .cart-body-wrapper .cart-wrapper .diamond2, .cart-body-wrapper .cart-wrapper .circle-wrapper #code:hover .diamond2 {
+  background: white;
+}
+
+.circle-wrapper #code:hover #colored-icon {
+  opacity: 1;
+}
+
+.circle-wrapper #forum .diamond, .circle-wrapper #forum .cart-body-wrapper .cart-wrapper .diamond2, .cart-body-wrapper .cart-wrapper .circle-wrapper #forum .diamond2 {
+  background: #7b449f;
+  border: 5px solid #7b449f;
+}
+
+.circle-wrapper #forum label {
+  color: #7b449f;
+}
+
+
+.circle-wrapper #forum:hover .diamond, .circle-wrapper #forum:hover .cart-body-wrapper .cart-wrapper .diamond2, .cart-body-wrapper .cart-wrapper .circle-wrapper #forum:hover .diamond2 {
+  background: white;
+}
+
+.circle-wrapper #forum:hover .details {
+  color: white;
+}
+
+.circle-wrapper #forum:hover #colored-icon {
+  opacity: 1;
+}
+
+.circle-wrapper #projects .diamond, .circle-wrapper #projects .cart-body-wrapper .cart-wrapper .diamond2, .cart-body-wrapper .cart-wrapper .circle-wrapper #projects .diamond2 {
+  background: #f52153;
+  border: 5px solid #f52153;
+}
+
+.circle-wrapper #projects label {
+  color: #f52153;
+}
+
+.circle-wrapper #projects:hover .diamond,
+.circle-wrapper #projects:hover .cart-body-wrapper .cart-wrapper .diamond2,
+.cart-body-wrapper .cart-wrapper .circle-wrapper #projects:hover .diamond2 {
+  background: white;
+}
+
+.circle-wrapper #projects:hover .details {
+  color: white;
+}
+
+.circle-wrapper #projects:hover #colored-icon {
+  opacity: 1;
+}
+
+.circle-wrapper #faq .diamond,
+.circle-wrapper #faq .cart-body-wrapper .cart-wrapper .diamond2,
+.cart-body-wrapper .cart-wrapper .circle-wrapper #faq .diamond2 {
+  background: #f47a27;
+  border: 5px solid #f47a27;
+}
+
+.circle-wrapper #faq label {
+  color: #f47a27;
+}
+
+.circle-wrapper #faq:hover .diamond,
+.circle-wrapper #faq:hover .cart-body-wrapper .cart-wrapper .diamond2,
+.cart-body-wrapper .cart-wrapper .circle-wrapper #faq:hover .diamond2 {
+  background: white;
+}
+
+.circle-wrapper #faq:hover .details {
+  color: white;
+}
+
+.circle-wrapper #faq:hover #colored-icon {
+  opacity: 1;
+}
+
+
+
+
+
+/* Last Circle */
+.circle-wrapper #last .diamond,
+.circle-wrapper #last .cart-body-wrapper .cart-wrapper .diamond2,
+.cart-body-wrapper .cart-wrapper .circle-wrapper #last .diamond2
+{
+  background: var(--main);
+  border: 5px solid var(--main);
+}
+
+.circle-wrapper #last label {
+  color: var(--main);
+}
+
+.circle-wrapper #last:hover .diamond,
+.circle-wrapper #last:hover .cart-body-wrapper .cart-wrapper .diamond2,
+.cart-body-wrapper .cart-wrapper .circle-wrapper #last:hover .diamond2
+{
+  background: white;
+}
+
+.circle-wrapper #last:hover .details
+{
+  color: white;
+}
+
+.circle-wrapper #last:hover #colored-icon
+{
+  opacity: 1;
+}

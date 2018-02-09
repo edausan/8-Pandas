@@ -1,0 +1,23 @@
+@media all and (min-width:768px),
+print {
+    .privacy-policy-content p
+    {
+        font-size: 100%;
+    }
+}
+
+
+
+
+@media all and (min-width:1024px),
+print {
+
+}
+
+
+
+
+@media all and (min-width:1440px),
+print {
+
+}

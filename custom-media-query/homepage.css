@@ -1,0 +1,213 @@
+@media all and (min-width:768px),
+print {
+
+  .cart-wrapper, .navbar
+  {
+    display: block;
+  }
+  .carousel-wrapper
+  {
+    display: inline-block;
+    width: 80%;
+  }
+
+  .categories-container
+  {
+    width: 19.5%;
+    margin-top: 0px;
+  }
+
+  .categories-container .cat-wrapper
+  {
+    height: 80px;
+    margin-bottom: 12px;
+  }
+
+  .categories-container .cat-wrapper.hmi
+  {
+    border: 1px solid #021B73;
+    background: white;
+  }
+
+  .categories-container .cat-wrapper.oled
+  {
+    border: 1px solid #C50061;
+    background: white;
+  }
+
+  .categories-container .cat-wrapper.arduino
+  {
+    border: 1px solid #FF0A2E;
+    background: white;
+  }
+
+  .categories-container .cat-wrapper.raspberry
+  {
+    border: 1px solid #FFBB23;
+    background: white;
+  }
+
+  .categories-container .cat-wrapper.bbb
+  {
+    border: 1px solid #00ACC1;
+    background: white;
+  }
+
+  .categories-container .cat-wrapper img
+  {
+    width: 70px;
+  }
+
+  .categories-container .cat-wrapper .cat-title
+  {
+    right: 0px;
+    width: 70px;
+    text-align: left;
+    transform: translate(0%, -50%);
+  }
+
+  .categories-container .cat-wrapper .cat-title label
+  {
+    font-size: 100%;
+    color: black;
+  }
+
+  .categories-container .cat-wrapper:hover .cat-title label
+  {
+    margin-left: -10px;
+  }
+
+  .latest-news
+  {
+    width: 80%;
+  }
+
+  .latest-news .news-title
+  {
+    width: auto;
+    height: auto;
+  }
+
+  .latest-news .news
+  {
+    width: 75%;
+    padding: 0px;
+    padding-left: 10px;
+  }
+
+  .latest-news .news p a
+  {
+    font-size: 80%;
+    width: 300%;
+  }
+
+  .latest-news .controls {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .latest-news .controls .ctrl-btn i
+  {
+    font-size: 50%;
+  }
+
+  .carousel-wrapper
+  {
+    margin-top: 0px;
+  }
+
+  .carousel-wrapper .carousel .carousel-inner
+  {
+    height: 450px;
+  }
+
+
+  .diamond-icon-wrapper
+  {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    display: -webkit-flex;
+    display: flex;
+    width: 80%;
+  }
+
+  .diamond-icon-wrapper .diamond-icon
+  {
+    display: inline-block;
+    margin-bottom: 0px;
+  }
+
+  .diamond-icon-wrapper .diamond-icon .diamond
+  {
+    width: 120px;
+    height: 120px;
+  }
+
+  .diamond-icon-wrapper .diamond-icon .details
+  {
+    width: 130px;
+    font-size: 100%;
+  }
+
+
+  .product-wrapper .products
+  {
+    width: 24.5%;
+  }
+  .cart-wrapper .top-wrapper .title-wrapper a
+  {
+    font-size: 100%;
+  }
+  .cart-wrapper .total-wrapper
+  {
+    font-size: 100%;
+  }
+
+
+}
+
+
+
+
+
+@media all and (min-width:1024px),
+print {
+
+
+  .categories-container .cat-wrapper .cat-title
+  {
+    width: 100px;
+    right: 0px;
+  }
+  .categories-container .cat-wrapper:hover .cat-title label
+  {
+    margin-left: -20px;
+  }
+
+
+}
+
+
+
+
+
+
+
+@media all and (min-width:1440px),
+print {
+
+  .categories-container .cat-wrapper .cat-title
+  {
+    width: 120px;
+  }
+
+  .categories-container .cat-wrapper:hover .cat-title label
+  {
+    margin-left: -30px;
+  }
+
+}

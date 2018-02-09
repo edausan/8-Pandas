@@ -1,0 +1,147 @@
+@media all and (min-width:768px),
+print {
+  .dist-banner
+  {
+    /*height: 450px;*/
+  }
+
+  .dist-banner h1
+  {
+    font-size: 36px;
+  }
+
+  .dist-banner .dist-btn-wrapper
+  {
+
+  }
+
+  .dist-banner .dist-btn-wrapper button
+  {
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    margin: 0px 0px 0px;
+    font-weight: normal;
+  }
+
+  .dist-banner button i
+  {
+    margin-right: 15px;
+  }
+
+  .dist-banner hr
+  {
+    display: none;
+  }
+
+  .dist-list-wrapper
+  {
+    /*margin-top: 40px;*/
+  }
+
+  .dist-list-wrapper p
+  {
+    font-size: 110%;
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+
+
+
+  .dist-list-wrapper ul.dist-list
+  {
+    /*margin-top: 20px;*/
+  }
+
+  .dist-list-wrapper ul.dist-list li
+  {
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    font-size: 100%;
+
+  }
+
+  .fixed-dist-list
+  {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    z-index: 4;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    transition: 200ms ease;
+    width: auto;
+    height: auto;
+    max-height: 41px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+  }
+
+  .fixed-dist-list.show
+  {
+    transform: translateX(-50%) translateY(0%);
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+  }
+
+  .fixed-dist-list .dist-list-wrapper ul.dist-list li.fixed-item
+  {
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 0px;
+    font-size: 90%;
+    margin-right: 0px;
+    padding: 10px 15px;
+  }
+
+  .fixed-dist-list .dist-list-wrapper ul.dist-list li::after
+  {
+    display: none;
+  }
+
+  .dist-list-wrapper ul.dist-list li::after
+  {
+    display: block;
+  }
+
+  .dist-list-wrapper ul.dist-list li a
+  {
+    font-size: 100%;
+  }
+
+
+
+
+  .distributors-list h3,
+  .distributors-list p
+  {
+    font-size: 100%;
+  }
+
+  .distributors-list ul.dist-details li
+  {
+    font-size: 100%;
+    color: var(--accent);
+  }
+
+}
+
+
+
+
+@media all and (min-width:1024px),
+print {
+
+}
+
+
+
+
+@media all and (min-width:1440px),
+print {
+
+}

@@ -1,0 +1,120 @@
+.footer-block {
+  position: relative;
+  width: 100%;
+  background: #333;
+  z-index: 1000;
+  color: white;
+  background-image: url("https://8pandas.000webhostapp.com/home_page/img/wave2.jpg");
+  background-size: cover;
+  background-position: bottom bottom;
+  padding: 20px 0px;
+  /* margin-top: 30px; */
+}
+
+.footer-block img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 1;
+  /*-webkit-transform: translate(-10px, 50px);
+  -ms-transform: translate(-10px, 50px);
+  transform: translate(-10px, 50px);*/
+}
+
+.footer-block .copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0px !important;
+  background: #111;
+  text-align: center;
+}
+
+.copyright .social-icons {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block !important;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 20px;
+}
+
+.copyright .social-icons a {
+  color: white;
+}
+
+.copyright .social-icons a span {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.copyright .social-icons a span i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: calc(1em - 2px);
+  margin: 0px;
+}
+
+.copyright .social-icons .fb {
+  background: #1a4e9b;
+}
+
+.copyright .social-icons .twitter {
+  background: #00aced;
+}
+
+.copyright .social-icons .youtube {
+  background: #bb0000;
+}
+
+.footer-block .lists-wrapper-block ul {
+  list-style: none;
+  margin-bottom: 20px;
+  padding-right: 0px;
+}
+
+.footer-block .lists-wrapper-block ul li h4 {
+  color: white;
+  font-size: 200%;
+}
+
+.footer-block .lists-wrapper-block ul li a {
+  color: white;
+  font-size: 140%;
+}
+
+.footer-block .lists-wrapper-block ul li a:hover {
+  color: red;
+}
+
+.footer-block .lists-wrapper-block .paypal {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.footer-block .lists-wrapper-block .paypal .paypal-wrapper {
+  position: relative;
+  width: inherit;
+}
+
+.footer-block .lists-wrapper-block .paypal .paypal-wrapper img {
+  /*position: absolute;
+  top: 0px;
+  left: 0px;*/
+  width: 100%;
+  /*margin-left: 10px;*/
+}

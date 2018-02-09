@@ -1,0 +1,3 @@
+### add this line under <div class="product details product-item-details">
+
+<h5>The Picadillo-35T is a 3.5” 320x480 resolution (Half VGA) Embedded Display Module with Resistive Touch.</h5>

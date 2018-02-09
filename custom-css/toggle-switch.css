@@ -1,0 +1,119 @@
+.bg-toggle
+{
+  margin-bottom: 10px;
+}
+
+
+.bg-toggle-wrap
+{
+  width: 45px;
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  border-color: #ccc;
+  position: relative;
+  vertical-align: middle;
+  transition: 250ms ease;
+  height: 24px;
+}
+
+.bg-toggle-wrap.blue
+{
+  border-color: var(--accent);
+}
+
+.bg-toggle label
+{
+  vertical-align: middle;
+  margin: 0;
+  font-size: 60%;
+}
+
+.bg-toggle-wrap .toggle-switch
+{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*margin: 5px;*/
+}
+
+.bg-toggle-wrap .toggle-switch::after
+{
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: #ccc;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 100%;
+  transition: 250ms ease;
+}
+
+.bg-toggle-wrap input[type=checkbox] + .toggle-switch::after
+{
+  animation: short 250ms ease forwards;
+}
+
+.bg-toggle-wrap input[type=checkbox]:checked + .toggle-switch::after
+{
+  animation: long 250ms ease forwards;
+}
+
+@keyframes long {
+  0%{
+    background: #ccc;
+    width: 14px;
+    left: 2px;
+  }
+  25%{
+    left: 12px;
+    background: var(--accent);
+    width: 20px;
+    border-radius: 10px;
+  }
+  100%{
+    background: var(--accent);
+    width: 14px;
+    left: 24px;
+  }
+}
+
+@keyframes short {
+  0%{
+    background: var(--accent);
+    width: 14px;
+    left: 24px;
+  }
+  25%{
+    left: 12px;
+    border-radius: 10px;
+    background: var(--accent);
+    width: 20px;
+  }
+  100%{
+    background: #ccc;
+    width: 14px;
+    left: 2px;
+  }
+}
+
+.bg-toggle-wrap #check-toggle
+{
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  z-index: 4;
+}
+
+.bg-toggle-wrap #check-toggle:hover + .toggle-switch::before
+{
+  background: var(--accent);
+}

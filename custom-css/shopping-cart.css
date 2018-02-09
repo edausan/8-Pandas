@@ -1,0 +1,252 @@
+.cart-container .form-cart, .cart-summary
+{
+  width: 100%;
+  float: none;
+}
+
+.cart-container .form-cart
+{
+  padding: 0px;
+  padding-right: 10px;
+}
+
+
+.cart.table-wrapper .product-item-name a
+{
+  color: var(--accent);
+  font-size: 100%;
+  font-weight: 600;
+}
+
+.cart.table-wrapper .cart thead tr th.col
+{
+  padding: 10px 20px;
+  border-bottom: none;
+  text-align: center;
+  border-radius: 5px !important;
+}
+
+.cart.table-wrapper thead
+{
+  border-radius: 5px !important;
+  overflow: hidden;
+}
+
+.cart.table-wrapper thead tr
+{
+  background: var(--main);
+  color: white;
+  border-radius: 5px !important;
+}
+
+.cart.table-wrapper .col.price,
+.cart.table-wrapper .col.qty,
+.cart.table-wrapper .col.subtotal
+{
+  text-align: center;
+}
+
+.cart.table-wrapper .col.qty .control .form-control
+{
+  margin: 0 auto;
+}
+
+
+.cart-container .cart-summary
+{
+  border: 1px solid var(--main);
+  background: white;
+  padding: 0px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0);
+  transition: 200ms ease;
+}
+
+.cart-container .cart-summary:hover
+{
+  box-shadow: 0 8px 10px -3px rgba(0, 0, 0, 0.5);
+}
+
+.cart-summary > .title
+{
+  margin: 0px;
+  background: var(--main);
+  padding: 5px 20px;
+  color: white;
+}
+
+.cart-summary .checkout-methods-items
+{
+  padding: 5px 20px;
+  margin-bottom: 20px;
+}
+
+.cart-summary .checkout-methods-items .action.primary.checkout
+{
+  background: red;
+  box-shadow: inset 0px 1px 8px rgba(0,0,0,0);
+  transition: 100ms ease;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+.cart-summary .checkout-methods-items .action.primary.checkout:hover
+{
+  background: rgba(200,0,0,1);
+
+}
+
+.cart-summary .checkout-methods-items .action.primary.checkout:hover #cart-icon i
+{
+  color: rgba(200,0,0,1);
+}
+
+.cart-summary .checkout-methods-items .action.primary.checkout:active
+{
+  box-shadow: inset 0px 5px 8px rgba(0,0,0,.5);
+}
+
+.cart-summary .checkout-methods-items .action.primary.checkout:active #cart-icon
+{
+  box-shadow: 0px 5px 5px rgba(0,0,0,.5);
+}
+.cart-summary .checkout-methods-items .action.primary.checkout:active #btn-name
+{
+  text-shadow: 0px 5px 5px rgba(0,0,0,.7);
+}
+
+.cart-summary .checkout-methods-items .action.primary.checkout #cart-icon
+{
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 100%;
+  vertical-align: middle;
+  margin-right: 5px;
+  transition: 100ms ease;
+}
+.cart-summary .checkout-methods-items .action.primary.checkout #cart-icon i
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  transition: 100ms ease;
+}
+
+.cart-summary .checkout-methods-items .action.primary.checkout #btn-name
+{
+  vertical-align: middle;
+  transition: 100ms ease;
+}
+
+
+
+.cart-summary .block .title
+{
+  border-top: none;
+  text-align: left;
+  padding: 0px;
+}
+
+.cart-summary .block .title strong
+{
+  font-size: 85%;
+  margin: 0px;
+}
+
+.page-main .cart-summary .block
+{
+  padding: 10px 20px;
+}
+
+.cart-totals
+{
+  /*padding: 5px 20px;*/
+  margin: 0px 20px 5px;
+}
+
+.cart-totals .cart-total-sample h5
+{
+  font-weight: 600;
+  color: grey;
+}
+
+.cart-totals .cart-total-sample h5 span, .cart-totals .cart-total-order h5 span
+{
+  float: right;
+}
+
+.cart-totals .cart-total-order
+{
+  border-top: 1px solid #ccc;
+}
+
+.cart-totals .cart-total-order h5
+{
+  font-size: calc(100% + 2px);
+  font-weight: 600;
+}
+
+
+
+
+.cart-summary .checkout-methods-items .item
+{
+  margin-bottom: 15px;
+}
+
+.cart-summary .checkout-methods-items .item:last-child:hover a
+{
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}
+
+.cart-summary .checkout-methods-items .item:last-child a
+{
+  font-size: 90%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: grey;
+  transition: 200ms ease;
+}
+
+.cart-summary .checkout-methods-items .item:last-child:active a
+{
+  box-shadow: inset 0 5px 8px rgba(0,0,0,.5);
+}
+
+.cart-discount
+{
+  margin-bottom: 20px;
+}
+
+.cart.table-wrapper .item .col.item
+{
+  padding-bottom: 0px;
+}
+
+
+.cart-container .form-cart .actions.main .btn-default
+{
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  transition: 200ms ease;
+}
+.cart-container .form-cart .actions.main .btn-default:hover
+{
+  background: var(--acc-actv);
+  border-color: var(--acc-actv);
+}
+
+
+.product-item-details #shopcart-produt-name a
+{
+  color: var(--accent) !important;
+  font-weight: 600;
+}

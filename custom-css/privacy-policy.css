@@ -1,0 +1,37 @@
+.block-collapsible-nav .item.current a
+{
+  border-color: var(--accent);
+  color: var(--accent);
+  background-color: #f5f5f5;
+}
+
+.privacy-policy-content h2
+{
+  color: var(--main);
+  margin-top: 40px;
+  background: whitesmoke;
+  padding: 5px 10px;
+}
+
+.privacy-policy-content h2#privacy-policy,
+.privacy-policy-content h2#customer-acknowledgement
+{
+  margin-top: 13px !important;
+}
+
+.privacy-policy-content p
+{
+  padding-left: 15px;
+  padding-right: 10px;
+  font-size: 150%;
+}
+
+.block-collapsible-nav .content
+{
+  background: white;
+}
+
+.block-collapsible-nav .content .items
+{
+  background: white;
+}

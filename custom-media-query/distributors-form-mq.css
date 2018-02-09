@@ -1,0 +1,90 @@
+@media all and (min-width:768px),
+print {
+
+  .fieldset > .field.field-establish,
+  .fieldset > .field.field-employee
+  {
+    float: left;
+    width: 50%;
+  }
+
+  .fieldset.corp-info, .fieldset.dist-info
+  {
+    float: left;
+    clear: both;
+  }
+
+  .fieldset.dist-info
+  {
+    display: block;
+    width: 100%;
+  }
+
+  .fieldset.com-struct
+  {
+    float: right;
+  }
+
+  .fieldset.com-struct .rad-container,
+  .fieldset.dist-info .rad-container
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fieldset.com-struct .rad-container .rad-wrapper,
+  .fieldset.dist-info .rad-container .rad-wrapper
+  {
+    display: inline-block;
+  }
+
+  .fieldset.dist-info .rad-container
+  {
+    width: 48%;
+  }
+
+  .fieldset .rad-container .rad-wrapper input,
+  .fieldset .rad-container .rad-wrapper label
+  {
+    vertical-align: middle;
+    margin: 0;
+    font-size: calc(100% - 2px);
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-right: 5px;
+  }
+
+  .fieldset.distform-question-container
+  {
+    width: 100%;
+  }
+
+  .fieldset.distform-question-container .distform-question-wrapper
+  {
+    margin-bottom: 50px;
+  }
+
+  .fieldset.distform-question-container .distform-question-wrapper p
+  {
+    font-size: 100%;
+  }
+
+
+
+}
+
+
+
+
+@media all and (min-width:1024px),
+print {
+
+}
+
+
+
+
+@media all and (min-width:1440px),
+print {
+
+}

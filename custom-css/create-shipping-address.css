@@ -1,0 +1,92 @@
+.fieldset > .field .control.address-f::before,
+.fieldset > .field .control.address-s::before
+{
+  font-size: 140%;
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #79757E;
+  transform: scale(1);
+  transform-origin: top left;
+  transition: .3s cubic-bezier(0.4,0,0.2,1);
+}
+
+.fieldset > .field .control.address-f::after
+{
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: var(--accent);
+  z-index: 4;
+  transition: width .3s cubic-bezier(0.4,0,0.2,1);
+}
+
+.fieldset > .field .control.address-f.active::after
+{
+  width: 100%;
+}
+
+.fieldset > .field .control.address-f.active::before,
+.fieldset > .field .control.address-f.val::before
+{
+  top: -13px;
+  transform: scale(.9);
+  color: var(--accent);
+}
+
+
+.fieldset > .field .control.address-f::before
+{
+  content: 'Street Address 1';
+}
+
+.fieldset > .field .control.address-s::after
+{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: var(--accent);
+  z-index: 4;
+  transition: width .3s cubic-bezier(0.4,0,0.2,1);
+}
+
+
+.fieldset > .field .control.address-s::before
+{
+  content: 'Street Address 2';
+}
+
+
+.fieldset > .field .control.address-s.active::after
+{
+  width: 100%;
+}
+
+.fieldset > .field .control.address-s.active::before,
+.fieldset > .field .control.address-s.val::before
+{
+  top: -13px;
+  transform: scale(.9);
+  color: var(--accent);
+}
+
+
+.fieldset > .field .control.fax::before
+{
+  content: 'Fax';
+}
+
+
+.fieldset > .field > .icons.icons-1
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}

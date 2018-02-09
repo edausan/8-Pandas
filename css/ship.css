@@ -1,0 +1,7 @@
+.product-item-name > a {
+  color: #002428 !important;
+}
+
+.product-item-name:hover > a {
+  color: #ff274d !important;
+}

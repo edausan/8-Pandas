@@ -1,0 +1,136 @@
+@media all and (min-width:768px),
+print {
+  .page-main-contact .block.block-contactinfo,
+  .form.contact.form-contact
+  {
+    display: inline-block;
+  }
+
+  .page-main-contact .block.block-contactinfo
+  {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .form.contact.form-contact
+  {
+    width: 100%;
+    float: none;
+  }
+
+  
+
+  .form.contact.form-contact .control.name,
+  .form.contact.form-contact .control.emailadd,
+  .form.contact.form-contact .control.phone
+  {
+    width: 93.5%;
+  }
+
+  .form.contact.form-contact .fieldset
+  {
+    margin-bottom: 10px;
+  }
+
+  .columns .column.main.main-form.main-form-contact .actions-toolbar .primary
+  {
+      margin-bottom: 10px;
+      width: 100%;
+  }
+
+  .contact-bg
+  {
+    position: relative;
+    padding: 100px;
+  }
+
+  .page-main-contact .block.block-contactinfo .block-title p
+  {
+    font-size: 100%;
+    margin-top: 20px;
+  }
+
+  .page-main-contact
+  {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    -webkit-transform: translate(0%, 0%);
+    -moz-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    -o-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+  }
+
+  .page-main-contact .block.block-contactinfo .block-content .box strong 
+  {
+    font-size: 100%;
+    margin: 0 auto;
+  }
+  
+  .page-main-contact .block.block-contactinfo .block-content .box  .box-content span 
+  {
+    font-size: 100%;
+  }
+
+  .social-boxes
+  {
+    width: 100%;
+  }
+
+  .social-boxes a
+  {
+    font-size: 200%;
+  }
+
+  /* .form.contact.form-contact .control textarea
+  {
+    min-height: 100px;
+    max-height: 250px;
+  } */
+
+
+
+}
+
+@media all and (min-width:1024px),
+print {
+
+  .page-main-contact .block.block-contactinfo
+  {
+    width: 50%;
+    float: left;
+    text-align: left;
+  }
+
+  .form.contact.form-contact
+  {
+    width: 40%;
+    float: right;
+  }
+
+  .page-main-contact
+  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .page-main-contact .block.block-contactinfo .block-content .box strong 
+  {
+    font-size: 100%;
+    margin: 0;
+  }
+
+  .social-boxes
+  {
+    width: 40%;
+  }
+
+}

@@ -1,0 +1,38 @@
+.page-header .panel.wrapper .nav-bar
+{
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  z-index: 4;
+  display: none;
+  transform: translate(-50%, -50%);
+}
+
+.page-header .panel.wrapper .nav-bar ul
+{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.page-header .panel.wrapper .nav-bar ul li
+{
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+
+.page-header .panel.wrapper .nav-bar ul li a
+{
+  color: white ;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 100ms ease;
+  font-size: 110%;
+}
+
+.page-header .panel.wrapper .nav-bar ul li a:hover
+{
+  background: #032259;
+}

@@ -1,0 +1,607 @@
+.page-layout-2columns-left .sidebar-additional
+{
+  padding-left: 20px;
+}
+
+
+.empty
+{
+  color: grey;
+}
+
+.page-products .products-grid .product-item
+{
+  margin-left: 0px;
+  float: left;
+}
+
+
+.page-products .products-grid .product-item.item-product
+{
+  padding: 15px;
+  transition: 200ms ease;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.page-products .products-grid .product-items.listView li.item-product:hover
+{
+    border-bottom: 1px solid var(--accent);
+}
+
+.page-products .products-grid .product-item.item-product:hover
+{
+  box-shadow: 0 5px 10px rgba(0,0,0,.5);
+  border: 1px solid var(--accent);
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .product-item-actions .actions-primary + .actions-secondary
+{
+  top: -50px;
+  left: -675px;
+}
+
+.products-grid .product-item-info:hover,
+.products-grid .product-item-info.active
+{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+
+.product-image-container
+{
+  display: block;
+}
+
+.product-image-wrapper
+{
+  position: relative;
+  height: 200px;
+  max-height: 200px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 200ms ease;
+}
+
+.product-image-wrapper.bg
+{
+  background: url('../../img/bg5.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.product-image-photo
+{
+  height: 100%;
+  max-height: 200px;
+  position: relative;
+  /*left: 50%;
+  transform: translateX(-50%);*/
+  transition: 200ms ease;
+}
+
+.page-products .products-grid .product-item
+{
+  width: auto;
+}
+
+
+.products-grid .product-item-info:not(:hover):not(.active)
+.product-item-inner
+{
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  border: none;
+  background: none;
+  box-shadow: none;
+  height: auto;
+}
+
+
+.item-product .action.primary
+{
+  background: red;
+  border-color: red;
+  transition: 200ms ease;
+  font-size: 100%;
+  max-width: 94.4px;
+  word-wrap: break-word;
+  z-index: 4;
+  border-radius: 4px !important;
+}
+
+.item-product .action.primary:hover
+{
+  background: darkred;
+  border-color: darkred;
+}
+
+.item-product .action.primary:hover
+{
+  transform: translateY(0px);
+  box-shadow: 0 0px 0px rgba(0,0,0,.3);
+}
+
+.item-product .action.primary:active
+{
+  box-shadow: inset 0 5px 7px rgba(0,0,0,.5);
+  color: white;
+}
+
+
+.item-product .action.secondary
+{
+  position: absolute;
+}
+
+.item-product .view-feat
+{
+  background: white;
+  color: black;
+  border-color: rgba(0,0,0,.1);
+  transition: 200ms ease;
+  width: auto;
+}
+
+.item-product .view-feat:hover
+{
+  background: rgba(200,200,200,1);
+  border-color: grey;
+}
+
+.item-product .view-feat:active
+{
+  box-shadow: inset 0 5px 7px rgba(0,0,0,.5);
+  color: black;
+}
+
+.item-product .btn
+{
+  font-size: 90%;
+}
+
+
+.products-grid .product-item-inner
+{
+  position: relative;
+  background: transparent;
+  box-shadow: none;
+  display: block;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  opacity: 0;
+  transition: 200ms ease;
+}
+
+.product-item-actions .actions-primary
+{
+  display: inline-block;
+}
+
+.product-item-actions .actions-primary + .actions-secondary
+{
+  display: inline-block;
+  padding: 0px;
+  width: auto;
+  position: absolute;
+  top: -280px;
+  left: -50px;
+  z-index: 4;
+}
+
+.product-item-actions .actions-primary + .actions-secondary > .action
+{
+  margin-bottom: 10px;
+  color: white;
+  transition: 200ms ease;
+  margin-right: 0px;
+  transform: translateX(-50px);
+  font-size: 160%;
+}
+
+.product-item-actions .actions-primary + .actions-secondary > .action.visible
+{
+  color: #ccc;
+}
+
+.product-item-actions .actions-primary + .actions-secondary > .action.compare
+{
+  transition: 350ms ease;
+}
+.products-grid .product-item-info:hover .action.wishlist
+{
+  transform: translateX(0px);
+}
+
+.products-grid .product-item-info:hover .action.compare
+{
+  transform: translateX(0px);
+}
+
+.product-item-actions .actions-primary + .actions-secondary >
+.action.wishlist:hover
+{
+  color: red;
+}
+.product-item-actions .actions-primary + .actions-secondary >
+.action.compare:hover
+{
+  color: green;
+}
+
+.products-grid .product-item-info:hover .product-item-inner
+{
+  border: none;
+  display: inline-block;
+}
+.page-products .product-item-info
+{
+  position: relative;
+  width: 100%;
+}
+
+
+
+.product-item-name
+{
+  font-size: 180%;
+  color: var(--main);
+  transition: 200ms ease;
+}
+
+.product.name a
+{
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--main);
+  transition: 200ms ease;
+}
+
+
+.product.details.product-item-details h5
+{
+  font-size: 120%;
+  height: 50px;
+  max-height: 50px;
+  overflow-y: auto;
+  margin-bottom: 0px;
+}
+
+.product-item .price-box
+{
+  margin: 5px 0 0;
+  position: relative;
+  display: inline-block;
+}
+.product-item .price-box .price
+{
+  font-size: 160%;
+  font-weight: 700;
+  color: red;
+}
+
+.product-item-actions
+{
+  display: inline-block;
+}
+
+.product-item .tocart
+{
+  padding: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.products-grid .product-item-actions
+{
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.product-item-actions .actions-primary + .actions-secondary > .action
+{
+  display: block;
+
+}
+
+
+/* hover the product container */
+.page-products .products-grid .product-item.item-product:hover
+.product-item-inner
+{
+  opacity: 1;
+}
+
+
+
+.item-product .product-specs
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  transform: translateX(120%);
+  z-index: 1002;
+  transition: transform 300ms ease;
+  display: none;
+}
+
+.item-product .product-specs ul#features
+{
+  width: 72%;
+  list-style: none;
+  padding-left: 10px;
+  overflow-y: auto;
+  max-height: 70%;
+  padding-right: 5px;
+}
+
+.item-product .product-specs ul#features ol
+{
+  padding-left: 15px;
+  list-style: disc !important;
+}
+
+.item-product .product-specs ul#feature-name ol li
+{
+  margin-bottom: 5px;
+}
+
+.item-product .product-specs ul#feature-name li
+{
+  font-size: 100%;
+  margin-bottom: 10px;
+}
+
+.item-product .product-specs ul#feature-name li strong
+{
+  font-size: calc(100% - 2px);
+  color: white;
+  padding: 2px 4px;
+  background: var(--accent);
+  border-radius: 2px;
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.item-product .product-specs ul#feature-name p
+{
+  padding-left: 5px;
+  font-size: 75%;
+  margin-bottom: 2px;
+}
+
+.item-product .product-specs ul li
+{
+  font-size: 130%;
+  margin-bottom: 10px;
+}
+
+.item-product .product-specs ul li p
+{
+  margin: 0;
+}
+
+/* black flter */
+.item-product .filter
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.7);
+  z-index: 1001;
+  display: none;
+  transform: translateX(0%) !important;
+}
+/* black flter */
+
+.item-product .product-specs h3
+{
+  margin: 0px;
+  margin-bottom: 10px;
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+  padding: 10px 0 5px 10px;
+  font-size: 100%
+}
+
+.item-product .product-specs button
+{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.item-product .product-specs ul#feature-name ol li
+{
+  margin-bottom: 5px;
+}
+
+
+
+
+/* when the products is in List view */
+.page-products .products-grid .product-items.listView
+li.item-product .product-specs ul#feature-name ol li
+{
+  margin-bottom: 5px;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product
+{
+  width: 100%;
+  border-bottom: 1px solid rgba(150,150,150,.5);
+  margin-bottom: 10px;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .product-item-photo
+{
+  vertical-align: top;
+  display: inline-block;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .product-image-wrapper
+{
+  width: 100%;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .product-item-details
+{
+  vertical-align: top;
+  display: inline-block;
+  width: 50%;
+}
+
+
+.page-products .products-grid .product-items.listView
+li.item-product .action.primary
+{
+  width: 100%;
+  max-width: 100%;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .view-feat
+{
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .product-item-inner
+{
+  position: absolute;
+  top: 71px;
+  left: 80%;
+  width: 20%;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .price-box
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  text-align: center;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .price-box .price
+{
+  font-size: 200%;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .price-cart h6
+{
+  font-size: 200%;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .price-cart button
+{
+  width: 100%;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .product-specs
+{
+  width: 100%;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .product-specs ul#features
+{
+  max-height: 55%;
+  width: 73%;
+  height: inherit;
+  display: inline-block;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .product-specs ul#features li
+{
+  display: inline-block;
+  width: 39%;
+  vertical-align: top;
+  height: inherit;
+  margin-bottom: 0px;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .product-specs ul#feature-name
+{
+  width: 100%;
+  display: inline-block;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .product-specs ul#feature-name li
+{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.page-products .products-grid .product-items.listView
+li.item-product .product-specs ul#features li.dp-size
+{
+  width: 20%;
+}
+
+/* when the products is in List view */
+
+
+
+.view-btn button.btn-default:active
+{
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.view-btn button.btn-default:focus
+{
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+
+#feature-name
+{
+  list-style: none;
+  padding: 0px;
+}
+
+.column.main .product-items
+{
+  margin-left: 0px;
+}

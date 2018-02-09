@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <script>
+      var require = {
+          "baseUrl": "http://8pandas.net/pub/static/version1506329978/frontend/Magento/luma/en_US"
+      };
+  </script>
+
+  <title>8 Pandas | Shopping Cart</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="description" content="8 Pandas">
+  <meta name="keywords" content="Magento, 8 Pandas, E-commerce">
+  <meta name="robots" content="INDEX,FOLLOW">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" media="all" href="css/calendar.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles-m.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 768px)" href="css/styles-l.css">
+  <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/font-awesome.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" type="text/css" media="all" href="css/custom-styles-dist.css">
+
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="js/require.js"></script>
+  <script type="text/javascript" src="js/mixins.js"></script>
+  <script type="text/javascript" src="js/requirejs-config.js"></script>
+  <link rel="icon" type="image/x-icon" href="http://8pandas.net/pub/media/favicon/stores/1/favicon-16x16_1.png">
+  <link rel="shortcut icon" type="image/x-icon" href="http://8pandas.net/pub/media/favicon/stores/1/favicon-16x16_1.png">
+  <link rel="stylesheet" type="text/css" media="all" href="js/styles.css">            <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="js/jquery.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery.mobile.custom" src="js/jquery_004.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/responsive" src="js/responsive.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/dataPost" src="js/dataPost.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/theme" src="js/theme.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/bootstrap" src="js/bootstrap_002.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/translate-inline" src="js/translate-inline.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/translate" src="js/translate.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery-migrate" src="js/jquery-migrate.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/common" src="js/common.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery.cookie" src="js/jquery_002.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/tabs" src="js/tabs.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="domReady" src="js/domReady.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/template" src="js/template.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/smart-keyboard-handler" src="js/smart-keyboard-handler.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/mage" src="js/mage.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/ie-class-fixer" src="js/ie-class-fixer.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/apply/main" src="js/main_002.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bootstrap" src="js/bootstrap.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="matchMedia" src="js/matchMedia.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui" src="js/jquery-ui.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery-storageapi" src="js/jquery_003.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/collapsible" src="js/collapsible_002.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="underscore" src="js/underscore.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout" src="js/knockout.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-es5" src="js/knockout-es5.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/apply/scripts" src="js/scripts.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/engine" src="js/engine.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/bootstrap" src="js/bootstrap_003.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/extender/observable_array" src="js/observable_array.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/extender/bound-nodes" src="js/bound-nodes.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-repeat" src="js/knockout-repeat.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-fast-foreach" src="js/knockout-fast-foreach.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/observable_source" src="js/observable_source.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/renderer" src="js/renderer.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/resizable" src="js/resizable.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/i18n" src="js/i18n.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/scope" src="js/scope.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/range" src="js/range.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/mage-init" src="js/mage-init.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/keyboard" src="js/keyboard.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/optgroup" src="js/optgroup.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/wrapper" src="js/wrapper.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/events" src="js/events.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="es6-collections" src="js/es6-collections.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/after-render" src="js/after-render.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/autoselect" src="js/autoselect.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/datepicker" src="js/datepicker.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/outer_click" src="js/outer_click.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/fadeVisible" src="js/fadeVisible.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/collapsible" src="js/collapsible.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/staticChecked" src="js/staticChecked.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/simple-checked" src="js/simple-checked.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/bind-html" src="js/bind-html.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/tooltip" src="js/tooltip.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/class" src="js/class.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/view/utils/async" src="js/async.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/registry/registry" src="js/registry.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/main" src="js/main.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/loader" src="js/loader.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/calendar" src="js/calendar.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/arrays" src="js/arrays.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/compare" src="js/compare.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/misc" src="js/misc.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/objects" src="js/objects.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/strings" src="js/strings.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/template" src="js/template_002.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="text" src="js/text.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery-ui-timepicker-addon" src="js/jquery-ui-timepicker-addon.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/view/utils/dom-observer" src="js/dom-observer.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/view/utils/bindings" src="js/bindings.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="FormData" src="js/FormData.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="MutationObserver" src="js/MutationObserver.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/loader" src="js/loader_002.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_PageCache/js/page-cache" src="js/page-cache.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/app" src="js/app.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/dropdown" src="js/dropdown.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Search/form-mini" src="js/form-mini.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/menu" src="js/menu.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/validation/validation" src="js/validation.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/cookies" src="js/cookies.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/block-loader" src="js/block-loader.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/section-config" src="js/section-config.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/customer-data" src="js/customer-data.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/renderer/types" src="js/types.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/renderer/layout" src="js/layout.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/validation" src="js/validation_002.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/storage" src="js/storage.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/view/minicart" src="js/minicart.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/collection" src="js/collection.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Tax/js/view/checkout/minicart/subtotal/totals" src="js/totals.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Msrp/js/view/checkout/minicart/subtotal/totals" src="js/totals_002.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/view/image" src="js/image.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/url" src="js/url.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/view/compare-products" src="js/compare-products.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/view/authentication-popup" src="js/authentication-popup.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/view/messages" src="js/messages_003.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/view/checkout/loginCaptcha" src="js/loginCaptcha.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/view/customer" src="js/customer.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Theme/js/view/messages" src="js/messages.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/validate" src="js/jquery_005.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/sidebar" src="js/sidebar.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/element/element" src="js/element.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/form/form" src="js/form.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/action/login" src="js/login.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/model/authentication-popup" src="js/authentication-popup_002.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/alert" src="js/alert.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/view/checkout/defaultCaptcha" src="js/defaultCaptcha.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/model/captchaList" src="js/captchaList.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/model/messageList" src="js/messageList.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery.metadata" src="js/jquery_006.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/confirm" src="js/confirm.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/decorate" src="js/decorate.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/spinner" src="js/spinner.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/requirejs/resolver" src="js/resolver.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/element/links" src="js/links.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/storage/local" src="js/local.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/modal" src="js/modal.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/model/captcha" src="js/captcha.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/form/adapter" src="js/adapter.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/model/messages" src="js/messages_002.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/action/refresh" src="js/refresh.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/key-codes" src="js/key-codes.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <!-- Custom JavaScripts -->
+  <script type="text/javascript" src=""></script>
+
+</head>
+
+<body data-container="body" class="cms-home cms-index-index page-layout-1column">
+  <script>
+      require.config({
+          deps: [
+              'jquery',
+              'mage/translate',
+              'jquery/jquery-storageapi'
+          ],
+          callback: function ($) {
+              'use strict';
+
+              var dependencies = [],
+                  versionObj;
+
+              $.initNamespaceStorage('mage-translation-storage');
+              $.initNamespaceStorage('mage-translation-file-version');
+              versionObj = $.localStorage.get('mage-translation-file-version');
+
+              if (versionObj.version !== '848b665716e8b72b8680952da779960ba49e0b46') {
+                  dependencies.push(
+                      'text!js-translation.json'
+                  );
+
+              }
+
+              require.config({
+                  deps: dependencies,
+                  callback: function (string) {
+                      if (typeof string === 'string') {
+                          $.mage.translate.add(JSON.parse(string));
+                          $.localStorage.set('mage-translation-storage', string);
+                          $.localStorage.set(
+                              'mage-translation-file-version',
+                              {
+                                  version: '848b665716e8b72b8680952da779960ba49e0b46'
+                              }
+                          );
+                      } else {
+                          $.mage.translate.add($.localStorage.get('mage-translation-storage'));
+                      }
+                  }
+              });
+          }
+      });
+  </script>
+
+  <noscript>
+      <div class="message global noscript">
+          <div class="content">
+              <p>
+                  <strong>JavaScript seems to be disabled in your browser.</strong>
+                  <span>For the best experience on our site, be sure to turn on Javascript in your browser.</span>
+              </p>
+          </div>
+      </div>
+  </noscript>
+
+
+  <div class="page-wrapper">
+    <!-- Start of Header -->
+    <header class="page-header">
+      <div class="panel wrapper">
+        <!-- Top bar -->
+        <div class="c1"></div>
+        <div class="c2"></div>
+        <div class="c3"></div>
+        <!-- Top bar -->
+
+
+        <!-- Navbar -->
+        <div class="nav-bar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+
+
+        <!-- <div class="panel header">
+          <a class="action skip contentarea" href="#contentarea"><span>Skip to Content</span></a>
+
+          <ul class="header links">
+            <li class="greet welcome" data-bind="scope: 'customer'"> -->
+              <!-- ko if: customer().fullname  --><!-- /ko -->
+              <!-- ko ifnot: customer().fullname  -->
+              <!-- <span data-bind="html:'Default welcome msg!'">Default welcome msg!</span> -->
+              <!-- /ko -->
+          <!-- </li>
+
+          <li class="authorization-link" data-label="or">
+            <a href="http://8pandas.net/customer/account/login/">Sign In</a>
+          </li>
+          <li>
+            <a href="http://8pandas.net/customer/account/create/">Create an Account</a>
+          </li>
+        </ul>
+      </div> -->
+    </div>
+
+      <div class="header content home-page">
+        <span data-action="toggle-nav" class="action nav-toggle">
+          <i class="fa fa-navicon"></i>
+          <span>Toggle Nav</span>
+        </span>
+        <strong class="logo">
+          <a href="https://8pandas.000webhostapp.com/magento/homepage/">
+            <img src="js/8_Pandas_Logo.png" alt="8 Pandas" width="399">
+          </a>
+        </strong>
+
+
+        <!--  CART  -->
+        <div class="cart-wrapper">
+          <div class="diamond"></div>
+          <div class="diamond2"></div>
+
+          <div class="top-wrapper">
+            <div class="title-wrapper">
+              <a href="" id="" class="action showcart"><p><i class="fa fa-shopping-cart" data-bind="scope: 'minicart_content'"></i> <span>Shopping Cart</span></p></a>
+            </div>
+
+            <div class="flag-wrapper">
+              <a href="#">
+                <img src="https://8pandas.000webhostapp.com/magento/homepage/img/australian-flag-graphic.png">
+              </a>
+
+              <a href="#">
+                <img src="https://8pandas.000webhostapp.com/magento/homepage/img/french-flag-large.png">
+              </a>
+
+              <a href="#">
+                <img src="https://8pandas.000webhostapp.com/magento/homepage/img/german-flag-large.png">
+              </a>
+
+
+            </div>
+          </div>
+
+          <div class="labels">
+            <span>Items</span>
+            <span id="price">Price</span>
+          </div>
+
+          <div class="items-wrapper">
+            <div class="item">
+              <label><span>Item 1</span><span id="item-price">$ 10.00</span></label>
+              <a href=""><i class="fa fa-times-circle"></i></a>
+            </div>
+            <div class="item">
+              <label id="item2"><span>Item 2</span><span id="item-price">$ 09.59</span></label>
+              <a href=""><i class="fa fa-times-circle"></i></a>
+            </div>
+            <div class="item">
+                <label id="item2" class="view-all-cart"><span><i class="fa fa-shopping-basket"></i> Click here to view all items</span></label>
+            </div>
+
+          </div>
+
+          <hr>
+
+          <div class="total-wrapper">
+            <span id="total">Total</span>
+            <span id="total-item">3</span>
+            <span id="total-price">$ 19.59</span>
+          </div>
+
+          <a class="checkout-btn" href="http://8pandas.net/checkout/cart/">CHECKOUT</a>
+        </div>
+        <!-- ### CART ### -->
+
+        <!-- minicart -->
+        <div data-block="minicart" class="minicart-wrapper">
+          <!-- <label for="">Cart Button</label> -->
+            <a class="action showcart" href="http://8pandas.net/checkout/cart/" data-bind="scope: 'minicart_content'">
+              <i class="fa fa-shopping-cart"></i>
+                <span class="text">My Cart</span>
+                <span class="counter qty empty" data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading">
+                    <span class="counter-number"><!-- ko text: getCartParam('summary_count') -->0<!-- /ko --></span>
+                    <span class="counter-label">
+                    <!-- ko if: getCartParam('summary_count') --><!-- /ko -->
+                    </span>
+                </span>
+            </a>
+
+            <script>
+              window.checkout = {"shoppingCartUrl":"http:\/\/8pandas.net\/checkout\/cart\/","checkoutUrl":"http:\/\/8pandas.net\/checkout\/","updateItemQtyUrl":"http:\/\/8pandas.net\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"http:\/\/8pandas.net\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"http:\/\/8pandas.net\/","minicartMaxItemsVisible":5,"websiteId":"1","maxItemsToDisplay":10,"customerLoginUrl":"http:\/\/8pandas.net\/customer\/account\/login\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"http:\/\/8pandas.net\/captcha\/refresh\/","isRequired":false},"guest_checkout":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"http:\/\/8pandas.net\/captcha\/refresh\/","isRequired":false}}};
+            </script>
+
+
+          <!-- popup cart -->
+          <div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front mage-dropdown-dialog" style="display: none;" tabindex="-1" role="dialog" aria-describedby="ui-id-1">
+            <div class="block block-minicart empty ui-dialog-content ui-widget-content" data-role="dropdownDialog" id="ui-id-1" style="display: block;">
+              <div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+                          <!-- ko template: getTemplate() -->
+                <div class="block-title">
+                  <strong>
+                      <span class="text"><!-- ko i18n: 'My Cart' --><span>My Cart</span><!-- /ko --></span>
+                      <span class="qty empty" data-bind="css: { empty: !!getCartParam('summary_count') == false },
+                                     attr: { title: $t('Items in Cart') }" title="Items in Cart">
+                          <!-- ko text: getCartParam('summary_count') -->0<!-- /ko -->
+                      </span>
+                  </strong>
+                </div>
+
+                <div class="block-content">
+                    <button type="button" id="btn-minicart-close" class="action close" data-action="close" data-bind="attr: { title: $t('Close') }" title="Close">
+                        <span><!-- ko i18n: 'Close' --><span>Close</span><!-- /ko --></span>
+                    </button>
+
+                    <!-- ko if: getCartParam('summary_count') --><!-- /ko -->
+
+                    <!-- ko if: getCartParam('summary_count') --><!-- /ko -->
+
+                    <!-- ko ifnot: getCartParam('summary_count') -->
+                        <strong class="subtitle empty" data-bind="visible: closeSidebar()">
+                            <!-- ko i18n: 'You have no items in your shopping cart.' --><span>You have no items in your shopping cart.</span><!-- /ko -->
+                        </strong>
+                        <!-- ko if: getCartParam('cart_empty_message') --><!-- /ko -->
+                    <!-- /ko -->
+
+                    <!-- ko if: getCartParam('summary_count') --><!-- /ko -->
+
+                    <div id="minicart-widgets" class="minicart-widgets">
+                        <!-- ko foreach: getRegion('promotion') -->
+                            <!-- ko template: getTemplate() -->
+                <!-- ko foreach: {data: elems, as: 'element'} --><!-- /ko -->
+                <!-- /ko -->
+                        <!-- /ko -->
+                    </div>
+                </div>
+          <!-- ko foreach: getRegion('sign-in-popup') --><!-- /ko -->
+          <!-- /ko -->
+              </div>
+            </div>
+          </div>
+          <!-- popup cart -->
+        </div>
+        <!-- minicart -->
+
+
+        <div class="block block-search">
+            <div class="block block-title"><strong>Search</strong></div>
+            <div class="block block-content">
+                <form class="form minisearch" id="search_mini_form" action="http://8pandas.net/catalogsearch/result/" method="get">
+                    <div class="field search">
+                        <label class="label" for="search" data-role="minisearch-label">
+                            <i class="fa fa-search"></i>
+                            <span>Search</span>
+                        </label>
+                        <div class="control">
+                            <input id="search" name="q" placeholder="Search entire store here..." class="input-text" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" type="text">
+                            <div id="search_autocomplete" class="search-autocomplete" style="display: none;"></div>
+                            <div class="nested">
+                              <a class="action advanced" href="http://8pandas.net/catalogsearch/advanced/" data-action="advanced-search">Advanced Search</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <button type="submit" title="Search" class="action search" disabled="disabled">
+                            <span>Search</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <ul class="compare wrapper">
+          <li class="item link compare" data-bind="scope: 'compareProducts'" data-role="compare-products-link">
+            <a class="action compare no-display" title="Compare Products" data-bind="attr: {'href': compareProducts().listUrl}, css: {'no-display': !compareProducts().count}" href="http://8pandas.net/catalog/product_compare/index/uenc/aHR0cDovLzhwYW5kYXMubmV0L2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9JnVwZGF0ZV9zZWN0aW9uX2lkPWZhbHNlJl89MTUwNjU1ODk3NjIwNg%2C%2C/">Compare Products
+              <span class="counter qty" data-bind="text: compareProducts().countCaption">0 items</span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </header>
+    <!-- End of Header -->
+
+
+    <!-- Main Content -->
+    <main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
+      <div class="page messages">
+        <div data-placeholder="messages"></div>
+        <div data-bind="scope: 'messages'">
+            <div data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages"></div>
+            <div data-bind="foreach: { data: messages().messages, as: 'message' }" class="messages"></div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Columns -->
+      <div class="columns">
+
+          <!-- Start of Content -->
+
+          <div class="container">
+            <!-- Breadcrumbs -->
+            <!-- <div class="row">
+              <ul class="breadcrumb">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li class="active">4Discovery-35</li>
+              </ul>
+            </div> -->
+            <!-- Breadcrumbs -->
+
+
+            <!-- Column Main -->
+            <div class="row">
+              <div class="column main">
+                <input name="form_key" value="FXFQLm176yp6mA2Y" type="hidden">
+                <div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
+                  <script>
+                      window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"http:\/\/localhost\/8Pandas\/customer\/account\/create\/","customerForgotPasswordUrl":"http:\/\/localhost\/8Pandas\/customer\/account\/forgotpassword\/","baseUrl":"http:\/\/localhost\/8Pandas\/"};
+                  </script>
+                  <!-- ko template: getTemplate() -->
+                  <!-- /ko -->
+                </div>
+
+                <!-- Script-->
+                <div class="">
+                  <script data-role="msrp-popup-template" type="text/x-magento-template">
+                    <div id="map-popup-click-for-price" class="map-popup">
+                      <div class="popup-header">
+                          <strong class="title" id="map-popup-heading-price"></strong>
+                      </div>
+                      <div class="popup-content">
+                          <div class="map-info-price" id="map-popup-content">
+                              <div class="price-box">
+                                  <div class="map-msrp" id="map-popup-msrp-box">
+                                      <span class="label">Price</span>
+                                      <span class="old-price map-old-price" id="map-popup-msrp">
+                                          <span class="price"></span>
+                                      </span>
+                                  </div>
+                                  <div class="map-price" id="map-popup-price-box">
+                                      <span class="label">Actual Price</span>
+                                      <span id="map-popup-price" class="actual-price"></span>
+                                  </div>
+                              </div>
+                              <form action="" method="POST" id="product_addtocart_form_from_popup" class="map-form-addtocart">
+                                  <input type="hidden" name="product" class="product_id" value="" id="map-popup-product-id"/>
+                                  <button type="button"
+                                          title="Add to Cart"
+                                          class="action tocart primary"
+                                          id="map-popup-button">
+                                      <span>Add to Cart</span>
+                                  </button>
+                                  <div class="additional-addtocart-box">
+                                                          </div>
+                              </form>
+                          </div>
+                          <div class="map-text" id="map-popup-text">
+                              Our price is lower than the manufacturer&#039;s &quot;minimum advertised price.&quot; As a result, we cannot show you the price in catalog or the product page. <br /><br /> You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart.            </div>
+                      </div>
+                  </div>
+                  </script>
+                </div>
+                <!-- Script-->
+
+                <!-- Script -->
+                <div class="">
+                  <script data-role="msrp-info-template" type="text/x-magento-template">
+                    <div id="map-popup-what-this" class="map-popup">
+                        <div class="popup-header">
+                            <strong class="title" id="map-popup-heading-what-this"></strong>
+                        </div>
+                        <div class="popup-content">
+                            <div class="map-help-text" id="map-popup-text-what-this">
+                                Our price is lower than the manufacturer&#039;s &quot;minimum advertised price.&quot; As a result, we cannot show you the price in catalog or the product page. <br /><br /> You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart.            </div>
+                        </div>
+                    </div>
+                  </script>
+                </div>
+                <!-- Script -->
+
+                <!-- Cart Container -->
+                <div class="cart-container">
+
+                  <!-- Form -->
+                  <div class="col-lg-9 form-table">
+                    <div class="row">
+                      <form action="http://localhost/8Pandas/checkout/cart/updatePost/" method="post" id="form-validate" class="form form-cart" novalidate="novalidate">
+                        <input name="form_key" value="FXFQLm176yp6mA2Y" type="hidden">
+                        <!-- Table wrapper -->
+                        <div class="cart table-wrapper">
+
+                            <!-- Table -->
+                            <table id="shopping-cart-table" class="cart items data table">
+                              <caption role="heading" aria-level="2" class="table-caption">Shopping Cart Items</caption>
+
+                              <!-- Table Head -->
+                              <thead>
+                                  <tr>
+                                      <th class="col item" scope="col"><span>Item</span></th>
+                                      <th class="col price" scope="col"><span>Price</span></th>
+                                      <th class="col qty" scope="col"><span>Qty</span></th>
+                                      <th class="col subtotal" scope="col"><span>Subtotal</span></th>
+                                  </tr>
+                              </thead>
+
+                              <!-- Table Body -->
+                              <tbody class="cart item">
+                                <!-- Item Info -->
+                                <tr class="item-info">
+                                    <!-- Product Image -->
+                                    <td data-th="Item" class="col item">
+                                      <a href="http://localhost/8Pandas/primo-endurance-tank.html" title="Primo Endurance Tank" tabindex="-1" class="product-item-photo">
+                                        <span class="product-image-container" style="width:165px;">
+                                          <span class="product-image-wrapper" style="padding-bottom: 100%;">
+                                            <img class="product-image-photo img-responsive" src="img/1.png" alt="4Discovery-35">
+                                          </span>
+                                        </span>
+                                      </a>
+
+                                      <div class="product-item-details">
+                                          <strong class="product-item-name" id="shopcart-product-name">
+                                            <a href="http://localhost/8Pandas/primo-endurance-tank.html">4Discovery-35</a>
+                                          </strong>
+                                          <dl class="item-options">
+                                            <dt>Display Size</dt>
+                                            <dd>3.5"</dd>
+                                            <dt>Resolution</dt>
+                                            <dd>240 x 320px</dd>
+                                          </dl>
+                                      </div>
+                                    </td>
+
+                                    <!-- Product Name -->
+                                    <td class="col price" data-th="Price">
+                                      <span class="price-excluding-tax" data-label="Excl. Tax">
+                                        <span class="cart-price">
+                                          <span class="price">$29.00</span>
+                                        </span>
+                                      </span>
+                                    </td>
+
+                                    <!-- Quantity -->
+                                    <td class="col qty" data-th="Qty">
+                                      <div class="field qty">
+                                          <label class="label" for="cart-5-qty">
+                                              <span>Qty</span>
+                                          </label>
+                                          <div class="control qty">
+                                              <input id="cart-5-qty" name="cart[5][qty]" data-cart-item-id="MT03-XS-Blue" value="1" size="4" title="Qty" class="input-text qty form-control" maxlength="12" data-validate="{required:true,'validate-greater-than-zero':true}" data-role="cart-item-qty" type="number">
+                                          </div>
+                                      </div>
+                                    </td>
+
+                                    <!-- Subtotal -->
+                                    <td class="col subtotal" data-th="Subtotal">
+                                      <span class="price-excluding-tax" data-label="Excl. Tax">
+                                        <span class="cart-price">
+                                          <span class="price">$29.00</span>
+                                        </span>
+
+                                      </span>
+                                    </td>
+                                </tr>
+                                <!-- Item Info -->
+
+                                <!-- Edit and Delete -->
+                                <tr class="item-actions">
+                                  <td colspan="100">
+                                    <div class="actions-toolbar">
+                                      <div id="gift-options-cart-item-5" data-bind="scope:'giftOptionsCartItem-5'" class="gift-options-cart-item">
+                                        <!-- ko template: getTemplate() --><!-- /ko -->
+                                      </div>
+                                      <a class="action action-edit" href="http://localhost/8Pandas/checkout/cart/configure/id/5/product_id/675/" title="Edit item parameters">
+                                        <span>Edit</span>
+                                     </a>
+                                     <a href="#" title="Remove item" class="action action-delete" data-post="{&quot;action&quot;:&quot;http:\/\/localhost\/8Pandas\/checkout\/cart\/delete\/&quot;,&quot;data&quot;:{&quot;id&quot;:&quot;5&quot;,&quot;uenc&quot;:&quot;aHR0cDovL2xvY2FsaG9zdC84UGFuZGFzL2NoZWNrb3V0L2NhcnQv&quot;}}">
+                                       <span>Remove item</span>
+                                     </a>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <!-- Edit and Delete -->
+                              </tbody>
+
+                              <!-- Table Body -->
+                              <tbody class="cart item">
+                                <!-- Item Info -->
+                                <tr class="item-info">
+                                    <!-- Product Image -->
+                                    <td data-th="Item" class="col item">
+                                      <a href="http://localhost/8Pandas/primo-endurance-tank.html" title="Primo Endurance Tank" tabindex="-1" class="product-item-photo">
+                                        <span class="product-image-container" style="width:165px;">
+                                          <span class="product-image-wrapper" style="padding-bottom: 100%;">
+                                            <img class="product-image-photo img-responsive" src="img/4.png" alt="4Discovery-35">
+                                          </span>
+                                        </span>
+                                      </a>
+
+                                      <div class="product-item-details">
+                                          <strong class="product-item-name" id="shopcart-product-name">
+                                            <a href="http://localhost/8Pandas/primo-endurance-tank.html">gen4-uLCD-24PT</a>
+                                          </strong>
+                                          <dl class="item-options">
+                                            <dt>Display Size</dt>
+                                            <dd>2.4"</dd>
+                                            <dt>Resolution</dt>
+                                            <dd>240 x 320px</dd>
+                                          </dl>
+                                      </div>
+                                    </td>
+
+                                    <!-- Product Name -->
+                                    <td class="col price" data-th="Price">
+                                      <span class="price-excluding-tax" data-label="Excl. Tax">
+                                        <span class="cart-price">
+                                          <span class="price">$29.00</span>
+                                        </span>
+                                      </span>
+                                    </td>
+
+                                    <!-- Quantity -->
+                                    <td class="col qty" data-th="Qty">
+                                      <div class="field qty">
+                                          <label class="label" for="cart-5-qty">
+                                              <span>Qty</span>
+                                          </label>
+                                          <div class="control qty">
+                                              <input id="cart-5-qty" name="cart[5][qty]" data-cart-item-id="MT03-XS-Blue" value="1" size="4" title="Qty" class="input-text qty form-control" maxlength="12" data-validate="{required:true,'validate-greater-than-zero':true}" data-role="cart-item-qty" type="number">
+                                          </div>
+                                      </div>
+                                    </td>
+
+                                    <!-- Subtotal -->
+                                    <td class="col subtotal" data-th="Subtotal">
+                                      <span class="price-excluding-tax" data-label="Excl. Tax">
+                                        <span class="cart-price">
+                                          <span class="price">$29.00</span>
+                                        </span>
+
+                                      </span>
+                                    </td>
+                                </tr>
+                                <!-- Item Info -->
+
+                                <!-- Edit and Delete -->
+                                <tr class="item-actions">
+                                  <td colspan="100">
+                                    <div class="actions-toolbar">
+                                      <div id="gift-options-cart-item-5" data-bind="scope:'giftOptionsCartItem-5'" class="gift-options-cart-item">
+                                        <!-- ko template: getTemplate() --><!-- /ko -->
+                                      </div>
+                                      <a class="action action-edit" href="http://localhost/8Pandas/checkout/cart/configure/id/5/product_id/675/" title="Edit item parameters">
+                                        <span>Edit</span>
+                                     </a>
+                                     <a href="#" title="Remove item" class="action action-delete" data-post="{&quot;action&quot;:&quot;http:\/\/localhost\/8Pandas\/checkout\/cart\/delete\/&quot;,&quot;data&quot;:{&quot;id&quot;:&quot;5&quot;,&quot;uenc&quot;:&quot;aHR0cDovL2xvY2FsaG9zdC84UGFuZGFzL2NoZWNrb3V0L2NhcnQv&quot;}}">
+                                       <span>Remove item</span>
+                                     </a>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <!-- Edit and Delete -->
+                              </tbody>
+
+                              <!-- Table Body -->
+                              <tbody class="cart item">
+                                <!-- Item Info -->
+                                <tr class="item-info">
+                                    <!-- Product Image -->
+                                    <td data-th="Item" class="col item">
+                                      <a href="http://localhost/8Pandas/primo-endurance-tank.html" title="Primo Endurance Tank" tabindex="-1" class="product-item-photo">
+                                        <span class="product-image-container" style="width:165px;">
+                                          <span class="product-image-wrapper" style="padding-bottom: 100%;">
+                                            <img class="product-image-photo img-responsive" src="img/5.png" alt="4Discovery-35">
+                                          </span>
+                                        </span>
+                                      </a>
+
+                                      <div class="product-item-details">
+                                          <strong class="product-item-name" id="shopcart-product-name">
+                                            <a href="http://localhost/8Pandas/primo-endurance-tank.html">Picadillo-35</a>
+                                          </strong>
+                                          <dl class="item-options">
+                                            <dt>Display Size</dt>
+                                            <dd>3.5"</dd>
+                                            <dt>Resolution</dt>
+                                            <dd>240 x 320px</dd>
+                                          </dl>
+                                      </div>
+                                    </td>
+
+                                    <!-- Product Name -->
+                                    <td class="col price" data-th="Price">
+                                      <span class="price-excluding-tax" data-label="Excl. Tax">
+                                        <span class="cart-price">
+                                          <span class="price">$29.00</span>
+                                        </span>
+                                      </span>
+                                    </td>
+
+                                    <!-- Quantity -->
+                                    <td class="col qty" data-th="Qty">
+                                      <div class="field qty">
+                                          <label class="label" for="cart-5-qty">
+                                              <span>Qty</span>
+                                          </label>
+                                          <div class="control qty">
+                                              <input id="cart-5-qty" name="cart[5][qty]" data-cart-item-id="MT03-XS-Blue" value="1" size="4" title="Qty" class="input-text qty form-control" maxlength="12" data-validate="{required:true,'validate-greater-than-zero':true}" data-role="cart-item-qty" type="number">
+                                          </div>
+                                      </div>
+                                    </td>
+
+                                    <!-- Subtotal -->
+                                    <td class="col subtotal" data-th="Subtotal">
+                                      <span class="price-excluding-tax" data-label="Excl. Tax">
+                                        <span class="cart-price">
+                                          <span class="price">$29.00</span>
+                                        </span>
+
+                                      </span>
+                                    </td>
+                                </tr>
+                                <!-- Item Info -->
+
+                                <!-- Edit and Delete -->
+                                <tr class="item-actions">
+                                  <td colspan="100">
+                                    <div class="actions-toolbar">
+                                      <div id="gift-options-cart-item-5" data-bind="scope:'giftOptionsCartItem-5'" class="gift-options-cart-item">
+                                        <!-- ko template: getTemplate() --><!-- /ko -->
+                                      </div>
+                                      <a class="action action-edit" href="http://localhost/8Pandas/checkout/cart/configure/id/5/product_id/675/" title="Edit item parameters">
+                                        <span>Edit</span>
+                                     </a>
+                                     <a href="#" title="Remove item" class="action action-delete" data-post="{&quot;action&quot;:&quot;http:\/\/localhost\/8Pandas\/checkout\/cart\/delete\/&quot;,&quot;data&quot;:{&quot;id&quot;:&quot;5&quot;,&quot;uenc&quot;:&quot;aHR0cDovL2xvY2FsaG9zdC84UGFuZGFzL2NoZWNrb3V0L2NhcnQv&quot;}}">
+                                       <span>Remove item</span>
+                                     </a>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <!-- Edit and Delete -->
+                              </tbody>
+
+                            </table>
+
+                        </div>
+                        <!-- Table wrapper -->
+
+                        <!-- Cart Main Actions -->
+                        <div class="cart main actions">
+                          <a class="action continue" href="http://localhost/8Pandas/" title="Continue Shopping">
+                            <span>Continue Shopping</span>
+                          </a>
+
+                          <button type="submit" name="update_cart_action" data-cart-empty="" value="empty_cart" title="Clear Shopping Cart" class="action clear" id="empty_cart_button">
+                            <span>Clear Shopping Cart</span>
+                          </button>
+
+                          <button type="submit" name="update_cart_action" data-cart-item-update="" value="update_qty" title="Update Shopping Cart" class="action update btn btn-default">
+                              <span>Update Shopping Cart</span>
+                          </button>
+
+                          <input value="" id="update_cart_action_container" data-cart-item-update="" type="hidden">
+                        </div>
+                        <!-- Cart  Main Actions -->
+
+
+                      </form>
+                    </div>
+                  </div>
+                  <!-- Form -->
+
+                  <!-- Cart Summary -->
+                  <div class="col-lg-3">
+                    <div class="row">
+                      <div class="cart-summary" style="top: 0px;">
+                        <strong class="summary title">Summary</strong>
+                        <div id="block-shipping" class="block shipping" data-collapsible="true" role="tablist">
+
+                          <div class="title" data-role="title" aria-controls="block-summary" role="tab" aria-selected="false" aria-expanded="false" tabindex="0">
+                              <strong id="block-shipping-heading" role="heading" aria-level="2">Estimate Shipping and Tax</strong>
+                          </div>
+
+                          <div id="block-summary" data-bind="scope:'block-summary'" class="content" data-role="content" aria-labelledby="block-shipping-heading" role="tabpanel" aria-hidden="true" style="display: none;">
+                              <!-- ko template: getTemplate() -->
+                              <!-- ko foreach: {data: elems, as: 'element'} --><!-- /ko -->
+                              <!-- /ko -->
+
+                            <script>
+                                window.checkoutConfig = {"checkoutAgreements":{"isEnabled":false},"payment":{"ccform":{"icons":{"AE":{"url":"http:\/\/localhost\/8Pandas\/pub\/static\/version1507249596\/frontend\/Magento\/luma\/en_US\/Magento_Payment\/images\/cc\/ae.png","width":46,"height":30},"VI":{"url":"http:\/\/localhost\/8Pandas\/pub\/static\/version1507249596\/frontend\/Magento\/luma\/en_US\/Magento_Payment\/images\/cc\/vi.png","width":46,"height":30},"MC":{"url":"http:\/\/localhost\/8Pandas\/pub\/static\/version1507249596\/frontend\/Magento\/luma\/en_US\/Magento_Payment\/images\/cc\/mc.png","width":46,"height":30},"DI":{"url":"http:\/\/localhost\/8Pandas\/pub\/static\/version1507249596\/frontend\/Magento\/luma\/en_US\/Magento_Payment\/images\/cc\/di.png","width":46,"height":30},"JCB":{"url":"http:\/\/localhost\/8Pandas\/pub\/static\/version1507249596\/frontend\/Magento\/luma\/en_US\/Magento_Payment\/images\/cc\/jcb.png","width":46,"height":30},"SM":{"url":"http:\/\/localhost\/8Pandas\/pub\/static\/version1507249596\/frontend\/Magento\/luma\/en_US\/Magento_Payment\/images\/cc\/sm.png","width":46,"height":30},"DN":{"url":"http:\/\/localhost\/8Pandas\/pub\/static\/version1507249596\/frontend\/Magento\/luma\/en_US\/Magento_Payment\/images\/cc\/dn.png","width":46,"height":30},"SO":{"url":"http:\/\/localhost\/8Pandas\/pub\/static\/version1507249596\/frontend\/Magento\/luma\/en_US\/Magento_Payment\/images\/cc\/so.png","width":46,"height":30},"MI":{"url":"http:\/\/localhost\/8Pandas\/pub\/static\/version1507249596\/frontend\/Magento\/luma\/en_US\/Magento_Payment\/images\/cc\/mi.png","width":46,"height":30},"MD":{"url":"http:\/\/localhost\/8Pandas\/pub\/static\/version1507249596\/frontend\/Magento\/luma\/en_US\/Magento_Payment\/images\/cc\/md.png","width":46,"height":30}}},"checkmo":{"mailingAddress":"","payableTo":null},"paypalExpress":{"paymentAcceptanceMarkHref":"https:\/\/www.paypal.com\/us\/cgi-bin\/webscr?cmd=xpt\/Marketing\/popup\/OLCWhatIsPayPal-outside","paymentAcceptanceMarkSrc":"https:\/\/www.paypalobjects.com\/webstatic\/en_US\/i\/buttons\/pp-acceptance-medium.png","isContextCheckout":false,"inContextConfig":[]},"paypalIframe":[],"paypalBillingAgreement":{"agreements":[],"transportName":"ba_agreement_id"},"iframe":{"timeoutTime":{"payflowpro":30000,"authorizenet_directpost":30000},"dateDelim":{"payflowpro":"","authorizenet_directpost":""},"cardFieldsMap":{"payflowpro":[],"authorizenet_directpost":[]},"source":{"payflowpro":"http:\/\/localhost\/8Pandas\/pub\/static\/version1507249596\/frontend\/Magento\/luma\/en_US\/blank.html","authorizenet_directpost":"http:\/\/localhost\/8Pandas\/pub\/static\/version1507249596\/frontend\/Magento\/luma\/en_US\/blank.html"},"controllerName":{"payflowpro":"checkout_flow","authorizenet_directpost":"checkout_flow"},"cgiUrl":{"payflowpro":"https:\/\/payflowlink.paypal.com","authorizenet_directpost":"https:\/\/secure.authorize.net\/gateway\/transact.dll"},"placeOrderUrl":{"payflowpro":"http:\/\/localhost\/8Pandas\/paypal\/transparent\/requestSecureToken\/","authorizenet_directpost":"http:\/\/localhost\/8Pandas\/authorizenet\/directpost_payment\/place\/"},"saveOrderUrl":{"payflowpro":"http:\/\/localhost\/8Pandas\/checkout\/onepage\/saveOrder\/","authorizenet_directpost":"http:\/\/localhost\/8Pandas\/checkout\/onepage\/saveOrder\/"},"expireYearLength":{"payflowpro":2,"authorizenet_directpost":2}},"braintree":{"isActive":false,"clientToken":null,"ccTypesMapper":{"american-express":"AE","discover":"DI","jcb":"JCB","mastercard":"MC","master-card":"MC","visa":"VI","maestro":"MI","diners-club":"DN","unionpay":"CUP"},"sdkUrl":"https:\/\/js.braintreegateway.com\/js\/braintree-2.25.0.min.js","countrySpecificCardTypes":[],"availableCardTypes":["AE","VI","MC","DI","JCB","CUP","DN","MI"],"useCvv":true,"environment":"sandbox","kountMerchantId":null,"hasFraudProtection":false,"merchantId":null,"ccVaultCode":"braintree_cc_vault"},"three_d_secure":{"enabled":false,"thresholdAmount":0,"specificCountries":[]},"braintree_paypal":{"isActive":false,"title":"PayPal (Braintree)","isAllowShippingAddressOverride":true,"merchantName":null,"locale":"en_us","paymentAcceptanceMarkSrc":"https:\/\/www.paypalobjects.com\/webstatic\/en_US\/i\/buttons\/pp-acceptance-medium.png","vaultCode":"braintree_paypal_vault","skipOrderReview":false,"paymentIcon":{"url":"http:\/\/localhost\/8Pandas\/pub\/static\/version1507249596\/frontend\/Magento\/luma\/en_US\/Magento_Braintree\/images\/paypal.png","width":54,"height":32}}},"formKey":"FXFQLm176yp6mA2Y","customerData":[],"quoteData":{"entity_id":"5c0b0c7edf335e980fcba02e804ecebd","store_id":1,"created_at":"2017-10-06 00:25:47","updated_at":"0000-00-00 00:00:00","converted_at":null,"is_active":"1","is_virtual":0,"is_multi_shipping":"0","items_count":"1","items_qty":"1.0000","orig_order_id":"0","store_to_base_rate":"0.0000","store_to_quote_rate":"0.0000","base_currency_code":"USD","store_currency_code":"USD","quote_currency_code":"USD","grand_total":"29.0000","base_grand_total":"29.0000","checkout_method":null,"customer_id":null,"customer_tax_class_id":"3","customer_group_id":"0","customer_email":null,"customer_prefix":null,"customer_firstname":null,"customer_middlename":null,"customer_lastname":null,"customer_suffix":null,"customer_dob":null,"customer_note":null,"customer_note_notify":"1","customer_is_guest":"0","remote_ip":"::1","applied_rule_ids":null,"reserved_order_id":null,"password_hash":null,"coupon_code":null,"global_currency_code":"USD","base_to_global_rate":"1.0000","base_to_quote_rate":"1.0000","customer_taxvat":null,"customer_gender":null,"subtotal":"29.0000","base_subtotal":"29.0000","subtotal_with_discount":"29.0000","base_subtotal_with_discount":"29.0000","is_changed":"1","trigger_recollect":"0","ext_shipping_info":null,"is_persistent":"0","gift_message_id":null,"items":[{}],"extension_attributes":{},"x_forwarded_for":null,"messages":[]},"quoteItemData":[{"item_id":"5","quote_id":"3","created_at":"2017-10-06 00:25:48","updated_at":"0000-00-00 00:00:00","product_id":"675","store_id":1,"parent_item_id":null,"is_virtual":"0","sku":"MT03-XS-Blue","name":"Primo Endurance Tank","description":null,"applied_rule_ids":null,"additional_data":null,"is_qty_decimal":false,"no_discount":"0","weight":"1.0000","qty":1,"price":"29.0000","base_price":"29.0000","custom_price":null,"discount_percent":"0.0000","discount_amount":"0.0000","base_discount_amount":"0.0000","tax_percent":"0.0000","tax_amount":"0.0000","base_tax_amount":"0.0000","row_total":"29.0000","base_row_total":"29.0000","row_total_with_discount":"0.0000","row_weight":"1.0000","product_type":"configurable","base_tax_before_discount":null,"tax_before_discount":null,"original_custom_price":null,"redirect_url":null,"base_cost":null,"price_incl_tax":"29.0000","base_price_incl_tax":"29.0000","row_total_incl_tax":"29.0000","base_row_total_incl_tax":"29.0000","discount_tax_compensation_amount":"0.0000","base_discount_tax_compensation_amount":"0.0000","free_shipping":"0","gift_message_id":null,"weee_tax_applied":null,"weee_tax_applied_amount":null,"weee_tax_applied_row_amount":null,"weee_tax_disposition":null,"weee_tax_row_disposition":null,"base_weee_tax_applied_amount":null,"base_weee_tax_applied_row_amnt":null,"base_weee_tax_disposition":null,"base_weee_tax_row_disposition":null,"has_children":true,"qty_options":{"660":{}},"product":{"entity_id":"675","attribute_set_id":"9","type_id":"configurable","sku":"MT03","has_options":"1","required_options":"0","created_at":"2017-09-26 01:52:51","updated_at":"2017-09-26 01:52:51","is_salable":"1","price":"29.0000","name":"Primo Endurance Tank","small_image":"\/m\/t\/mt03-red_main.jpg","thumbnail":"\/m\/t\/mt03-red_main.jpg","msrp_display_actual_price_type":"0","url_key":"primo-endurance-tank","status":"1","visibility":"4","tax_class_id":"2","request_path":"primo-endurance-tank.html","tier_price":[],"store_id":1,"customer_group_id":"0","final_price":null},"tax_class_id":"2","has_error":false,"product_option":{},"options":[{"value":"XS","label":"Size"},{"value":"Blue","label":"Color"}],"thumbnail":"http:\/\/localhost\/8Pandas\/pub\/media\/catalog\/product\/cache\/thumbnail\/75x75\/beff4985b56e3afdbeabfc89641a4582\/m\/t\/mt03-red_main.jpg"}],"isCustomerLoggedIn":false,"selectedShippingMethod":null,"storeCode":"default","isGuestCheckoutAllowed":true,"isCustomerLoginRequired":false,"registerUrl":"http:\/\/localhost\/8Pandas\/customer\/account\/create\/","checkoutUrl":"http:\/\/localhost\/8Pandas\/checkout\/","defaultSuccessPageUrl":"http:\/\/localhost\/8Pandas\/checkout\/onepage\/success\/","pageNotFoundUrl":"http:\/\/localhost\/8Pandas\/checkout\/noroute\/","forgotPasswordUrl":"http:\/\/localhost\/8Pandas\/customer\/account\/forgotpassword\/","staticBaseUrl":"http:\/\/localhost\/8Pandas\/pub\/static\/version1507249596\/","priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":1},"basePriceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":1},"postCodes":{"DZ":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"AS":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"AR":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"AM":{"pattern_1":{"example":"123456","pattern":"^[0-9]{6}$"}},"AU":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"AT":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"AZ":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"},"pattern_2":{"example":"123456","pattern":"^[0-9]{6}$"}},"BD":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"BY":{"pattern_1":{"example":"123456","pattern":"^[0-9]{6}$"}},"BE":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"BA":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"BR":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"},"pattern_2":{"example":"12345-678","pattern":"^[0-9]{5}\\-[0-9]{3}$"}},"BN":{"pattern_1":{"example":"AB1234","pattern":"^[a-zA-z]{2}[0-9]{4}$"}},"BG":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"CA":{"pattern_1":{"example":"A1B 2C3","pattern":"^[a-zA-z]{1}[0-9]{1}[a-zA-z]{1}\\s[0-9]{1}[a-zA-z]{1}[0-9]{1}$"}},"IC":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"CN":{"pattern_1":{"example":"123456","pattern":"^[0-9]{6}$"}},"HR":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"CU":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"CY":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"CZ":{"pattern_1":{"example":"123 45","pattern":"^[0-9]{3}\\s[0-9]{2}$"}},"DK":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"EE":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"FI":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"FR":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"GF":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"GE":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"DE":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"GR":{"pattern_1":{"example":"123 45","pattern":"^[0-9]{3}\\s[0-9]{2}$"}},"GL":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"GP":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"GU":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"GG":{"pattern_1":{"example":"AB1 2CD","pattern":"^[a-zA-Z]{2}[0-9]{1}\\s[0-9]{1}[a-zA-Z]{2}$"}},"HU":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"IS":{"pattern_1":{"example":"123","pattern":"^[0-9]{3}$"}},"IN":{"pattern_1":{"example":"123456","pattern":"^[0-9]{6}$"}},"ID":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"IL":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"IT":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"JP":{"pattern_1":{"example":"123-4567","pattern":"^[0-9]{3}-[0-9]{4}$"},"pattern_2":{"example":"123","pattern":"^[0-9]{3}$"}},"JE":{"pattern_1":{"example":"AB1 2CD","pattern":"^[a-zA-Z]{2}[0-9]{1}\\s[0-9]{1}[a-zA-Z]{2}$"}},"KZ":{"pattern_1":{"example":"123456","pattern":"^[0-9]{6}$"}},"KE":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"KR":{"pattern_1":{"example":"123-456","pattern":"^[0-9]{3}-[0-9]{3}$"}},"KG":{"pattern_1":{"example":"123456","pattern":"^[0-9]{6}$"}},"LV":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"LI":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"LT":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"LU":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"MK":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"MG":{"pattern_1":{"example":"123","pattern":"^[0-9]{3}$"}},"MY":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"MV":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"},"pattern_2":{"example":"1234","pattern":"^[0-9]{4}$"}},"MT":{"pattern_1":{"example":"ABC 123","pattern":"^[a-zA-Z]{3}\\s[0-9]{3}$"},"pattern_2":{"example":"ABC 12","pattern":"^[a-zA-Z]{3}\\s[0-9]{2}$"}},"MH":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"MQ":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"MX":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"MD":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"MC":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"MN":{"pattern_1":{"example":"123456","pattern":"^[0-9]{6}$"}},"MA":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"NL":{"pattern_1":{"example":"1234 AB","pattern":"^[0-9]{4}\\s[a-zA-Z]{2}$"}},"NO":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"PK":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"PH":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"PL":{"pattern_1":{"example":"12-345","pattern":"^[0-9]{2}-[0-9]{3}$"}},"PT":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"},"pattern_2":{"example":"1234-567","pattern":"^[0-9]{4}-[0-9]{3}$"}},"PR":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"RE":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"RO":{"pattern_1":{"example":"123456","pattern":"^[0-9]{6}$"}},"RU":{"pattern_1":{"example":"123456","pattern":"^[0-9]{6}$"}},"MP":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"CS":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"SG":{"pattern_1":{"example":"123456","pattern":"^[0-9]{6}$"}},"SK":{"pattern_1":{"example":"123 45","pattern":"^[0-9]{3}\\s[0-9]{2}$"}},"SI":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"ZA":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"ES":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"XY":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"SZ":{"pattern_1":{"example":"A123","pattern":"^[a-zA-Z]{1}[0-9]{3}$"}},"SE":{"pattern_1":{"example":"123 45","pattern":"^[0-9]{3}\\s[0-9]{2}$"}},"CH":{"pattern_1":{"example":"1234","pattern":"^[0-9]{4}$"}},"TW":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"},"pattern_2":{"example":"123","pattern":"^[0-9]{3}$"}},"TJ":{"pattern_1":{"example":"123456","pattern":"^[0-9]{6}$"}},"TH":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"TR":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"TM":{"pattern_1":{"example":"123456","pattern":"^[0-9]{6}$"}},"UA":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"GB":{"pattern_1":{"example":"AB12 3CD","pattern":"^[a-zA-Z]{2}[0-9]{2}\\s?[0-9]{1}[a-zA-Z]{2}$"},"pattern_2":{"example":"A1B 2CD","pattern":"^[a-zA-Z]{1}[0-9]{1}[a-zA-Z]{1}\\s?[0-9]{1}[a-zA-Z]{2}$"},"pattern_3":{"example":"AB1 2CD","pattern":"^[a-zA-Z]{2}[0-9]{1}\\s?[0-9]{1}[a-zA-Z]{2}$"},"pattern_4":{"example":"AB1C 2DF","pattern":"^[a-zA-Z]{2}[0-9]{1}[a-zA-Z]{1}\\s?[0-9]{1}[a-zA-Z]{2}$"},"pattern_5":{"example":"A12 3BC","pattern":"^[a-zA-Z]{1}[0-9]{2}\\s?[0-9]{1}[a-zA-Z]{2}$"},"pattern_6":{"example":"A1 2BC","pattern":"^[a-zA-Z]{1}[0-9]{1}\\s?[0-9]{1}[a-zA-Z]{2}$"}},"US":{"pattern_1":{"example":"12345-6789","pattern":"^[0-9]{5}\\-[0-9]{4}$"},"pattern_2":{"example":"12345","pattern":"^[0-9]{5}$"}},"UY":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}},"UZ":{"pattern_1":{"example":"123456","pattern":"^[0-9]{6}$"}},"VI":{"pattern_1":{"example":"12345","pattern":"^[0-9]{5}$"}}},"imageData":{"5":{"src":"http:\/\/localhost\/8Pandas\/pub\/media\/catalog\/product\/cache\/thumbnail\/75x75\/beff4985b56e3afdbeabfc89641a4582\/m\/t\/mt03-red_main.jpg","alt":"Primo Endurance Tank","width":"75","height":"75"}},"totalsData":{"subtotal":"29.0000","base_subtotal":"29.0000","subtotal_with_discount":"29.0000","base_subtotal_with_discount":"29.0000","tax_amount":"0.0000","base_tax_amount":"0.0000","shipping_amount":"0.0000","base_shipping_amount":"0.0000","shipping_tax_amount":"0.0000","base_shipping_tax_amount":"0.0000","discount_amount":"0.0000","base_discount_amount":"0.0000","grand_total":29,"base_grand_total":"29.0000","shipping_discount_amount":"0.0000","base_shipping_discount_amount":"0.0000","subtotal_incl_tax":"29.0000","shipping_incl_tax":"0.0000","base_shipping_incl_tax":"0.0000","total_segments":[{"code":"subtotal","title":"Subtotal","value":"29.0000","area":null},{"code":"shipping","title":"Shipping & Handling","value":"0.0000","area":null},{"code":"tax","title":"Tax","value":"0.0000","area":null,"extension_attributes":{"tax_grandtotal_details":[]}},{"code":"grand_total","title":"Grand Total","value":"29.0000","area":"footer"}],"coupon_code":null,"items":[{"item_id":"5","name":"Primo Endurance Tank","qty":1,"price":"29.0000","base_price":"29.0000","discount_percent":"0.0000","discount_amount":"0.0000","base_discount_amount":"0.0000","tax_percent":"0.0000","tax_amount":"0.0000","base_tax_amount":"0.0000","row_total":"29.0000","base_row_total":"29.0000","row_total_with_discount":"0.0000","price_incl_tax":"29.0000","base_price_incl_tax":"29.0000","row_total_incl_tax":"29.0000","base_row_total_incl_tax":"29.0000","weee_tax_applied":null,"weee_tax_applied_amount":null,"options":"[{\"value\":\"XS\",\"label\":\"Size\"},{\"value\":\"Blue\",\"label\":\"Color\"}]"}],"items_qty":"1.0000","base_currency_code":"USD","quote_currency_code":"USD"},"shippingPolicy":{"isEnabled":false,"shippingPolicyContent":""},"activeCarriers":["flatrate","tablerate"],"originCountryCode":"US","paymentMethods":[],"autocomplete":"off","displayBillingOnPaymentMethod":true,"maxCartItemsToDisplay":10,"cartUrl":"http:\/\/localhost\/8Pandas\/checkout\/cart\/","isDisplayShippingPriceExclTax":true,"isDisplayShippingBothPrices":false,"reviewShippingDisplayMode":"excluding","reviewItemPriceDisplayMode":"excluding","reviewTotalsDisplayMode":"excluding","includeTaxInGrandTotal":false,"isFullTaxSummaryDisplayed":false,"isZeroTaxDisplayed":false,"reloadOnBillingAddress":false,"defaultCountryId":"US","defaultRegionId":"0","defaultPostcode":null,"vault":[],"isDisplayPriceWithWeeeDetails":false,"isDisplayFinalPrice":false,"isWeeeEnabled":"0","isIncludedInSubtotal":false,"getIncludeWeeeFlag":false,"persistenceConfig":{"isRememberMeCheckboxVisible":false,"isRememberMeCheckboxChecked":true},"captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"http:\/\/localhost\/8Pandas\/captcha\/refresh\/","isRequired":false},"guest_checkout":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"http:\/\/localhost\/8Pandas\/captcha\/refresh\/","isRequired":false}}};
+                                window.customerData = window.checkoutConfig.customerData;
+                                window.isCustomerLoggedIn = window.checkoutConfig.isCustomerLoggedIn;
+                                require([
+                                    'mage/url',
+                                    'Magento_Ui/js/block-loader'
+                                ], function(url, blockLoader) {
+                                    blockLoader("http://localhost/8Pandas/pub/static/version1507249596/frontend/Magento/luma/en_US/images/loader-1.gif");
+                                    return url.setBaseUrl('http://localhost/8Pandas/');
+                                })
+                            </script>
+                          </div>
+
+                        </div>
+
+                        <div id="cart-totals" class="cart-totals" data-bind="scope:'block-totals'">
+                            <!-- ko template: getTemplate() --><!-- /ko -->
+                            <div class="cart-total-sample">
+                              <h5>Subtotal <span>$29.00</span></h5>
+                              <h5>Subtotal <span>$29.00</span></h5>
+                              <h5>Subtotal <span>$29.00</span></h5>
+                              <h5>Tax <span>$0.00</span></h5>
+                            </div>
+                            <div class="cart-total-order">
+                              <h5>Order Total <span>$29.00</span></h5>
+                            </div>
+                        </div>
+
+                        <ul class="checkout methods items checkout-methods-items">
+                          <li class="item">
+                            <button type="button" data-role="proceed-to-checkout" title="Proceed to Checkout" class="action primary checkout">
+                              <span id="cart-icon"><i class="fa fa-check"></i></span>
+                              <span id="btn-name"> Proceed to Checkout</span>
+                            </button>
+                          </li>
+                          <li class="item">
+                            <a class="action multicheckout" href="http://localhost/8Pandas/multishipping/checkout/">
+                              <span>Check Out with Multiple Addresses</span>
+                            </a>
+                          </li>
+                        </ul>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Cart Summary -->
+
+
+
+                  <div id="gift-options-cart" data-bind="scope:'giftOptionsCart'">
+                    <!-- ko template: getTemplate() --><!-- /ko -->
+                    <script>
+                        window.giftOptionsConfig = {"giftMessage":{"itemLevel":{"5":[]}},"isItemLevelGiftOptionsEnabled":false,"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":1},"storeCode":"default","isCustomerLoggedIn":false,"formKey":"FXFQLm176yp6mA2Y","baseUrl":"http:\/\/localhost\/8Pandas\/"};
+                    </script>
+                  </div>
+
+                  <!-- Discount -->
+                  <div class="cart-discount">
+                    <div class="block discount" id="block-discount" data-collapsible="true" role="tablist">
+                      <div class="title" data-role="title" role="tab" aria-selected="false" aria-expanded="false" tabindex="0">
+                          <strong id="block-discount-heading" role="heading" aria-level="2">Apply Discount Code</strong>
+                      </div>
+
+                      <div class="content" data-role="content" aria-labelledby="block-discount-heading" role="tabpanel" aria-hidden="true" style="display: none;">
+                          <form id="discount-coupon-form" action="http://localhost/8Pandas/checkout/cart/couponPost/" method="post">
+                              <div class="fieldset coupon">
+                                  <input name="remove" id="remove-coupon" value="0" type="hidden">
+
+                                  <div class="field">
+                                      <label for="coupon_code" class="label"><span>Enter discount code</span></label>
+                                      <div class="control">
+                                          <input class="input-text" id="coupon_code" name="coupon_code" placeholder="Enter discount code" type="text">
+                                      </div>
+                                  </div>
+
+                                  <div class="actions-toolbar">
+                                    <div class="primary">
+                                      <button class="action apply primary" type="button" value="Apply Discount">
+                                          <span>Apply Discount</span>
+                                      </button>
+                                      </div>
+                                  </div>
+
+                              </div>
+                          </form>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- Discount -->
+
+                </div>
+                <!-- Cart Container -->
+
+              </div>
+              <!-- Column Main -->
+              </div>
+            </div>
+
+          <!-- End of Content -->
+
+      </div>
+      <!-- Columns -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <!-- End of Main Content -->
+
+    <!-- Footer -->
+    <footer class="page-footer footer-block">
+      <div class="footer content">
+
+        <!-- newsletter -->
+        <!-- <div class="block newsletter">
+          <div class="title"><strong>Newsletter</strong></div>
+          <div class="content">
+              <form class="form subscribe" novalidate="novalidate" action="http://8pandas.net/newsletter/subscriber/new/" method="post" id="newsletter-validate-detail">
+                  <div class="field newsletter">
+                      <label class="label" for="newsletter"><span>Sign Up for Our Newsletter:</span></label>
+                      <div class="control">
+                          <input name="email" id="newsletter" placeholder="Enter your email address" data-validate="{required:true, 'validate-email':true}" type="email">
+                      </div>
+                  </div>
+                  <div class="actions">
+                      <button class="action subscribe primary" title="Subscribe" type="submit">
+                          <span>Subscribe</span>
+                      </button>
+                  </div>
+              </form>
+          </div>
+        </div> -->
+        <!-- newsletter -->
+
+
+        <!-- FOOTER CONTENT -->
+        <div class="container">
+          <div class="row">
+            <div class="lists-wrapper-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <ul class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <li><h4>8 Pandas Solutions</h4></li>
+                <li><a href="">Panda Vision Modules</a></li>
+                <li><a href="">Panda Panel Modules</a></li>
+                <li><a href="">Panda Click-Clack Boards</a></li>
+                <li><a href="">Panda Studio</a></li>
+                <li><a href="">Panda Kits</a></li>
+              </ul>
+              <ul class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                <li><h4>Technical Support</h4></li>
+                <li><a href="">Technical Support</a></li>
+                <li><a href="">Contact Tech Suppport</a></li>
+                <li><a href="">Application Notes</a></li>
+                <li><a href="">Downloads</a></li>
+                <li><a href="">Forum</a></li>
+                <li><a href="">FAQ</a></li>
+              </ul>
+
+              <ul class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                <li><h4>Sales</h4></li>
+                <li><a href="">Contact Sales</a></li>
+                <li><a href="">Distributors Application</a></li>
+              </ul>
+
+
+              <!-- <div class="row"> -->
+              <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <div class="row">
+                  <ul class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <li><h4>Corporate</h4></li>
+                    <li><a href="">Contact 8 Pandas</a></li>
+                    <li><a href="">About 8 Pandas</a></li>
+                    <li><a href="">Terms and Condition</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                  </ul>
+
+                  <ul class="col-lg-8 col-md-8 col-sm-12 col-xs-12 signup">
+                    <li><h4>Sign Up</h4></li>
+                    <li>Get updates on the newest products and promotions at 8 Pandas.</li>
+                    <li>
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="email@mail.com">
+                        <span class="input-group-btn">
+                          <button class="btn btn-primary">Go</button>
+                        </span>
+                      </div>
+                    </li>
+
+                  </ul>
+                  <ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12 paypal">
+                    <li class="paypal-wrapper">
+                      <img src="https://8pandas.000webhostapp.com/home_page/img/paypal_only.png" alt="" class="">
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+              <!-- </div> -->
+            </div>
+          </div>
+        </div>
+        <!-- FOOTER CONTENT -->
+
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- <span id="testSpan">&nbsp;</span> -->
+    <!-- Copyright -->
+    <small class="copyright">
+        <span>Copyright © 2017 8 Pandas. All rights reserved. All trade and/or services marks mentioned are the property of their respective owners.</span>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/" target="_blank"><span class="fb"><i class="fa fa-facebook"></i></span></a>
+          <a href="https://twitter.com/" target="_blank"><span class="twitter"><i class="fa fa-twitter"></i></span></a>
+          <a href="http://www.youtube.com/user/" target="_blank"><span class="youtube"><i class="fa fa-youtube"></i></span></a>
+        </div>
+    </small>
+    <!-- Copyright -->
+
+  </div>
+  <!-- Columns -->
+
+  <div class="modals-wrapper"><!--
+    /**
+     * Copyright © 2013-2017 Magento, Inc. All rights reserved.
+     * See COPYING.txt for license details.
+     */
+    -->
+
+    <aside class="modal-popup popup-authentication modal-slide _inner-scroll" data-role="modal" data-type="popup" tabindex="0">
+
+      <div data-role="focusable-start" tabindex="0"></div>
+
+      <div class="modal-inner-wrap" data-role="focusable-scope">
+        <header class="modal-header">
+            <button class="action-close" data-role="closeBtn" type="button">
+                <span>Close</span>
+            </button>
+        </header>
+
+        <div class="modal-content" data-role="content">
+          <div class="block-authentication" data-bind="afterRender: setModalElement, blockLoader: isLoading" style="">
+            <div class="block block-new-customer" data-bind="attr: {'data-label': $t('or')}" data-label="or">
+              <div class="block-title">
+                <strong id="block-new-customer-heading" role="heading" aria-level="2" data-bind="i18n: 'Checkout out as a new customer'">Checkout out as a new customer</strong>
+              </div>
+              <div class="block-content" aria-labelledby="block-new-customer-heading">
+                <p data-bind="i18n: 'Creating an account has many benefits:'">Creating an account has many benefits:</p>
+                <ul>
+                    <li data-bind="i18n: 'See order and shipping status'">See order and shipping status</li>
+                    <li data-bind="i18n: 'Track order history'">Track order history</li>
+                    <li data-bind="i18n: 'Check out faster'">Check out faster</li>
+                </ul>
+                <div class="actions-toolbar">
+                    <div class="primary">
+                        <a class="action action-register primary" data-bind="attr: {href: registerUrl}" href="http://8pandas.net/customer/account/create/">
+                            <span data-bind="i18n: 'Create an Account'">Create an Account</span>
+                        </a>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="block block-customer-login" data-bind="attr: {'data-label': $t('or')}" data-label="or">
+                <div class="block-title">
+                    <strong id="block-customer-login-heading" role="heading" aria-level="2" data-bind="i18n: 'Checkout out using your account'">Checkout out using your account</strong>
+                </div>
+                <!-- ko foreach: getRegion('messages') -->
+                <!-- ko template: getTemplate() -->
+                <div data-role="checkout-messages" class="messages" data-bind="visible: isVisible(), click: removeAll">
+                    <!-- ko foreach: messageContainer.getErrorMessages() --><!--/ko-->
+                    <!-- ko foreach: messageContainer.getSuccessMessages() --><!--/ko-->
+                </div>
+                <!-- /ko -->
+                <!--/ko-->
+                <!-- ko foreach: getRegion('before') --><!-- /ko -->
+                <div class="block-content" aria-labelledby="block-customer-login-heading">
+                  <form class="form form-login" method="post" data-bind="submit:login" id="login-form">
+                    <div class="fieldset login" data-bind="attr: {'data-hasrequired': $t('* Required Fields')}" data-hasrequired="* Required Fields">
+                        <div class="field email required">
+                            <label class="label" for="email"><span data-bind="i18n: 'Email Address'">Email Address</span></label>
+                            <div class="control">
+                                <input name="username" id="email" class="input-text" data-bind="attr: {autocomplete: autocomplete}" data-validate="{required:true, 'validate-email':true}" autocomplete="off" type="email">
+                            </div>
+                        </div>
+                        <div class="field password required">
+                            <label for="pass" class="label"><span data-bind="i18n: 'Password'">Password</span></label>
+                            <div class="control">
+                                <input name="password" class="input-text" id="pass" data-bind="attr: {autocomplete: autocomplete}" data-validate="{required:true}" autocomplete="off" type="password">
+                            </div>
+                        </div>
+                        <!-- ko foreach: getRegion('additional-login-form-fields') -->
+                        <!-- ko template: getTemplate() -->
+                        <!-- ko if: (isRequired() && getIsVisible())--><!-- /ko -->
+                        <!-- /ko -->
+                        <!-- /ko -->
+                    </div>
+                    <div class="actions-toolbar">
+                        <input name="context" value="checkout" type="hidden">
+                        <div class="primary">
+                            <button type="submit" class="action action-login secondary" name="send" id="send2">
+                                <span data-bind="i18n: 'Sign In'">Sign In</span>
+                            </button>
+                        </div>
+                        <div class="secondary">
+                            <a class="action" data-bind="attr: {href: forgotPasswordUrl}" href="http://8pandas.net/customer/account/forgotpassword/">
+                                <span data-bind="i18n: 'Forgot Your Password?'">Forgot Your Password?</span>
+                            </a>
+                        </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div data-role="focusable-end" tabindex="0"></div>
+    </aside>
+  </div>
+</body>
+</html>

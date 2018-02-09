@@ -1,0 +1,98 @@
+.actions-toolbar.login
+{
+  text-align: left;
+}
+
+.actions-toolbar > .primary.create-btn
+{
+
+  float: none;
+}
+.actions-toolbar.login > .primary
+{
+  display: block;
+  width: 100%;
+}
+.actions-toolbar > .secondary
+{
+  text-align: center;
+  display: block;
+  width: 100%;
+  /*margin-top: 20px;*/
+}
+
+.actions-toolbar > .secondary a.action
+{
+  margin-top: 20px;
+  font-size: 120%;;
+}
+
+.message.info, .login-container .fieldset::after
+{
+  display: none;
+}
+
+
+.column.main.login
+{
+  /*margin-left: 20px;*/
+}
+
+.login-container .block:nth-child(2)
+{
+  margin-right: 20px;
+}
+
+
+.fieldset > .field > .icons
+{
+  display: inline-block;
+  width: 20px;
+  font-size: 140%;
+}
+
+
+
+.fieldset > .field > .control
+{
+  display: inline-block;
+  width: 90%;
+}
+
+.login-container .fieldset > .field > .control
+{
+  display: inline-block;
+}
+
+.action.primary.login
+{
+  background: #0D9800;
+  border-color: #0D9800;
+}
+
+.action.primary.login:hover
+{
+  background: #144700;
+  border-color: #144700;
+}
+
+.action.primary.create
+{
+  background: white;
+  border-color: #eee;
+  color: #333;
+  box-shadow: none ;
+}
+
+.action.primary.create:hover
+{
+  background: whitesmoke;
+  border-color: #eee;
+  box-shadow: 0 5px 7px rgba(0,0,0,.3);
+}
+
+
+.login-container .block .block-title
+{
+  margin-top: 20px
+}

@@ -1,0 +1,175 @@
+@media only screen and (max-width:767px) {
+  
+/* Categories Mobile View */
+  .cart-wrapper, .navbar
+  {
+    display: none;
+  }
+
+  .carousel-wrapper
+  {
+    display: block;
+    margin-top: 20px;
+  }
+  .carousel-wrapper .carousel .carousel-inner
+  {
+    height: 200px;
+  }
+
+
+
+  .categories-container
+  {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+
+  .categories-container .cat-wrapper
+  {
+    height: 40px;
+    margin-bottom: 2px;
+    text-align: center;
+  }
+
+  .categories-container .cat-wrapper img
+  {
+    width: 40px;
+  }
+
+  .categories-container .cat-wrapper .cat-title
+  {
+    right: 50%;
+    transform: translate(50%, -50%);
+    width:300px;
+    text-align: center;
+  }
+
+  .categories-container .cat-wrapper .cat-title label
+  {
+    font-size: 80%;
+    color: white;
+  }
+
+
+  .categories-container .cat-wrapper.hmi
+  {
+    border: 1px solid #021B73;
+    background: #021B73;
+  }
+
+  .categories-container .cat-wrapper.oled
+  {
+    border: 1px solid #C50061;
+    background: #C50061;
+  }
+
+  .categories-container .cat-wrapper.arduino
+  {
+    border: 1px solid #FF0A2E;
+    background: #FF0A2E;
+  }
+
+  .categories-container .cat-wrapper.raspberry
+  {
+    border: 1px solid #FFBB23;
+    background: #FFBB23;
+  }
+
+  .categories-container .cat-wrapper.bbb
+  {
+    border: 1px solid #00ACC1;
+    background: #00ACC1;
+  }
+
+
+  /* Latest News mobile View */
+  .latest-news
+  {
+    width: 100%;
+  }
+
+
+  .latest-news .news-title
+  {
+    width: 100%;
+    text-align: center;
+  }
+
+  .latest-news .news
+  {
+    width: 100%;
+    text-align: justify;
+    padding: 15px;
+  }
+
+  .latest-news .news p a
+  {
+    font-size: 80%;
+  }
+
+  .latest-news .controls {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /* Circle Icons */
+  .diamond-icon-wrapper
+  {
+    text-align: center;
+  }
+
+  .diamond-icon-wrapper .diamond-icon
+  {
+    margin-right: 0px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+
+  .diamond-icon-wrapper .diamond-icon .diamond
+  {
+    width: 80px;
+    height: 80px;
+  }
+
+  .diamond-icon-wrapper .diamond-icon .details
+  {
+    width: 100%;
+    font-size: 60%;
+  }
+
+
+
+
+  .product-wrapper .products
+  {
+    width: 100%;
+  }
+
+
+  /* Product Details Page */
+  .cart-wrapper, .navbar
+  {
+    display: none;
+  }
+
+  .product-tabs-mobile
+  {
+    display: block;
+  }
+
+  .product-tabs, .tabs-content
+  {
+    display: none;
+  }
+
+
+  .product-details .product-add-to-cart .quotes h5
+  {
+    font-size: calc(100% - 2px);
+  }
+
+}

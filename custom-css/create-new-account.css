@@ -1,0 +1,96 @@
+.fieldset > .field .control.emailadd::after
+{
+  bottom: 0px;
+}
+#password-strength-meter-container
+{
+  display: none;
+}
+
+.fieldset > .field .control.password::before
+{
+  content: 'Password';
+}
+
+.fieldset > .field .control.confirm-password::before
+{
+  content: 'Confirm Password';
+}
+
+
+.fieldset > .field.choice .label
+{
+  color: black;
+  font-size: 120%;
+}
+
+.fieldset > .field
+{
+  position: relative;
+}
+
+
+.fieldset > .field .checkbox-btn
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  /*width: 20px;
+  height: 20px;*/
+  border: 2px solid #ccc;
+  border-color: #ccc;
+  /*z-index: 4;*/
+  border-radius: 5px;
+  background: white;
+  transition: 200ms ease;
+  text-align: center;
+}
+
+.fieldset > .field .checkbox-btn i
+{
+  padding: 10px 5px;
+  transform-origin: center center;
+  line-height: 0;
+  transform: rotate(0deg);
+  color: white;
+  font-size: 100%;
+  transition: 100ms ease;
+}
+
+.fieldset > .field .checkbox-btn.checked
+{
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.fieldset > .field .checkbox-btn.checked i
+{
+  transform: rotate(360deg);
+}
+
+.fieldset > .field > #is_subscribed
+{
+  width: 25px;
+  height: 25px;
+  opacity: 0;
+  z-index: 4;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.fieldset > .field > .label
+{
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.form.create.account
+{
+  display: block;
+/*  margin: 20px auto 50px;*/
+  /*padding: 20px;*/
+/*  border: 1px solid #ccc;*/
+/*  box-shadow: 0 10px 10px -5px rgba(0,0,0,.5);*/
+/*  border-radius: 5px;*/
+}

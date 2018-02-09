@@ -1,0 +1,293 @@
+/* Page Title */
+.page-main > .page-title-wrapper .page-title
+{
+  padding: 10px 20px;
+  background: var(--main);
+  color: white;
+  border-radius: 5px;
+  display: block;
+  font-size: 200%;
+}
+
+/* Progress bar */
+.opc-progress-bar
+{
+  margin-top: 50px;
+}
+
+.opc-progress-bar-item._active::before
+{
+  background: var(--accent);
+}
+.opc-progress-bar-item._active > span::before
+{
+  background: var(--accent);
+}
+
+.opc-progress-bar-item._active > span,
+.opc-progress-bar-item._active > span::after
+{
+  color: var(--accent);
+}
+
+/* Progress bar */
+
+
+/* Labels */
+.opc-wrapper .form-login .fieldset .field .label,
+.opc-wrapper .form-shipping-address .fieldset .field .label
+{
+  color: var(--accent);
+}
+
+
+/* Input */
+.field .control._with-tooltip input,
+.fieldset > .field .control input,
+.fieldset > .field .control select
+{
+  border: none;
+  border-bottom: 2px solid #E8E8E8;
+  position: relative;
+  background: transparent;
+  font-size: 140%;
+}
+
+.field .control._with-tooltip input:focus,
+.fieldset > .field .control input:focus,
+.fieldset > .field .control select:focus
+{
+  /*border-color: var(--accent);*/
+}
+
+.fieldset > .field .control
+{
+  position: relative;
+}
+
+/* Control */
+.fieldset > .field .control::before
+{
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #79757E;
+  transform: scale(1);
+  transform-origin: top left;
+  transition: .3s cubic-bezier(0.4,0,0.2,1);
+  font-size: 140%;
+}
+
+.fieldset > .field .control::after
+{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: var(--accent);
+  z-index: 4;
+  transition: width .3s cubic-bezier(0.4,0,0.2,1);
+}
+/* Control */
+
+/* EMAIL */
+.fieldset > .field .control.emailadd::before
+{
+  content: 'Email Address';
+}
+.fieldset > .field .control.emailadd::after
+{
+  bottom: 30px;
+}
+/* EMAIL */
+
+/* Firstname */
+.fieldset > .field .control.fname::before
+{
+  content: 'First Name';
+}
+
+/* lastname */
+.fieldset > .field .control.lname::before
+{
+  content: 'Last Name';
+}
+
+/* Company */
+.fieldset > .field .control.company::before
+{
+  content: 'Company';
+}
+
+/* Address */
+.fieldset > .field .control.address::before
+{
+  content: 'Sreet Address';
+}
+
+/* City */
+.fieldset > .field .control.city::before
+{
+  content: 'City';
+}
+
+/* Zip */
+.fieldset > .field .control.zip::before
+{
+  content: 'Zip/Postal Code';
+}
+
+/* Phone */
+.fieldset > .field .control.phone::before
+{
+  content: 'Phone Number';
+}
+
+
+/* when .control has class .active*/
+.fieldset > .field .control.active::after
+{
+  width: 100%;
+}
+
+.fieldset > .field .control.active::before,
+.fieldset > .field .control.val::before
+{
+  top: -13px;
+  transform: scale(.9);
+  color: var(--accent);
+}
+
+
+.form-shipping-address .fieldset .field .label::after
+{
+  content: '';
+}
+
+.fieldset > .field .additional
+{
+  margin-top: 20px;
+}
+
+.fieldset > .field .control select
+{
+  color: #79757E;
+  font-size: 110%;
+}
+
+.checkout-shipping-method .actions-toolbar .action.primary
+{
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.checkout-shipping-method .actions-toolbar .action.primary:hover
+{
+  background: var(--acc-actv);
+  border-color: var(--acc-actv);
+}
+
+
+.modal-content
+{
+  border-color: var(--main);
+  box-shadow: 0 1px 1px -3px rgba(0, 0, 0, 0);
+  transition: 200ms ease;
+  background: white;
+}
+.modal-content:hover
+{
+  box-shadow: 0 8px 10px -3px rgba(0, 0, 0, 0.5)
+}
+
+.opc-block-summary
+{
+  border-radius:5px;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background: white;
+}
+
+.modal-header
+{
+  border: none ;
+  display: none;
+}
+
+.opc-block-summary > .title
+{
+  color: white;
+  padding: 5px 20px;
+  background: var(--main);
+}
+
+.authentication-wrapper
+{
+  position: relative;
+  top: -47px;
+  display: block;
+  left: 100%;
+  transform: translateX(-65%);
+  float: none;
+  margin-top: 0px;
+}
+
+.authentication-wrapper button.action
+{
+  padding: 8px 20px;
+  margin-top: 1px;
+  margin-right: 2px;
+  background: var(--main);
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  transition: 200ms ease;
+}
+
+.authentication-wrapper button.action:hover
+{
+  background: white;
+  color: var(--main);
+}
+
+
+.opc-block-summary .items-in-cart > .title
+{
+  padding: 10px 20px;
+}
+
+.content.minicart-items
+{
+  padding: 0;
+}
+
+.minicart-items
+{
+  padding: 10px 20px;
+  padding-right: 30px;
+}
+
+.opc-block-summary .minicart-items-wrapper
+{
+  padding: 0px;
+}
+
+.opc-block-summary .items-in-cart > .title::after
+{
+  right: 20px;
+}
+
+
+
+
+/* Column Main */
+.columns .column.main.main-form
+{
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

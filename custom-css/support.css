@@ -1,0 +1,558 @@
+.support-form
+{
+  z-index: 1002;
+  position: relative;
+}
+
+.support-form .fieldset
+{
+  /*width: 100%;*/
+  /*float: left;*/
+  /*display: block;*/
+  /*margin-bottom: 20px;*/
+  /*position: relative;*/
+  /*z-index: 1002;*/
+}
+
+/*.support-form .fieldset.new-request
+{
+  width: 100%;
+  z-index: 1002;
+}*/
+
+.support-form .fieldset.search-support
+{
+  width: 100%;
+}
+
+.support-form .search-support-btn
+{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.support-form .search-support-btn .primary
+{
+  display: block;
+  margin: 0 auto;
+  float: none;
+}
+
+.support-form .search-support-btn .primary button
+{
+  width: 35%;
+}
+
+/*.support-form .support-fieldset .search-wrapper .support-search
+{
+  float: none;
+  width: 90%;
+}*/
+
+
+.fieldset > .field .control.support-search::before
+{
+  content: 'Search existing support request';
+}
+
+.fieldset > .field .control.country::before
+{
+  content: 'Country';
+}
+
+.fieldset > .field .control.region::before
+{
+  content: 'Region, State or Province.';
+}
+
+.fieldset > .field .control.request::before
+{
+  content: 'Request Subject';
+}
+
+
+
+.support-form .support-fieldset.right-field
+{
+  /*float: right;*/
+}
+
+
+.mce-btn
+{
+  border-radius: 4px 6px;
+}
+.mce-btn.mce-active
+{
+  background: var(--main) !important;
+}
+
+.mce-btn.mce-active button:hover
+{
+  background: var(--main);
+}
+
+.mce-btn.mce-active:hover
+{
+  background: var(--accent);
+}
+
+.mce-btn button:hover
+{
+  border: none;
+  background: var(--accent);
+}
+
+.mce-btn button:hover i
+{
+  color: white;
+}
+
+.mce-btn button:active
+{
+  border: none;
+  background: transparent;
+}
+
+
+.mce-flow-layout-item.mce-last
+{
+  display: none;
+}
+
+.mce-container, .mce-container-body
+{
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.mce-tooltip
+{
+
+}
+
+.mce-tooltip-inner
+{
+  background: var(--accent) !important;
+}
+
+.mce-tooltip-arrow
+{
+  border: 5px dashed var(--accent);
+}
+
+.mce-tooltip-n .mce-tooltip-arrow
+{
+  border-bottom-color: var(--accent);
+  border-bottom-style: solid;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top: none;
+}
+.support-form .fieldset.support-mce
+{
+  position: relative;
+  z-index: 1000 !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.note-upload-wrapper
+{
+  padding: 10px 20px;
+  border-left: 5px solid var(--accent);
+  background: #eee;
+  margin-bottom: 20px;
+}
+
+.note-upload-wrapper label
+{
+  text-align: left;
+  font-size: 140%;
+}
+
+.note-upload-wrapper p
+{
+  font-size: 120%;
+}
+
+.file-captcha-wrapper
+{
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+
+.file-captcha-wrapper .file-upload-wrapper, .file-captcha-wrapper .faq-wrapper
+{
+  display: block;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+}
+
+.file-captcha-wrapper .legend span
+{
+  color: var(--main);
+}
+
+.file-captcha-wrapper .file-upload-wrapper .captcha-wrapper
+{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .captcha-wrapper .g-recaptcha
+{
+  display: inline-block;
+}
+
+
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper
+{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper input#imgInp
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper button.choose-btn,
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper button.upload-btn,
+.file-captcha-wrapper .file-upload-wrapper button.submit-btn
+{
+  position: relative;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: #eee;
+  color: #555;
+  z-index: 1001;
+  width: 100%;
+  overflow: hidden;
+  font-size: 120%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+.file-captcha-wrapper .file-upload-wrapper button.submit-btn
+{
+  background: var(--main);
+  color: white;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper button.choose-btn:hover
+{
+  background: #ccc;
+  color: #333;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper button.choose-btn
+{
+  background: #eee;
+  color: #555;
+  display: none;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper button.choose-btn.shown
+{
+  display: block;
+}
+
+
+
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper button.upload-btn
+{
+  background: var(--accent);
+  color: white;
+  display: none;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper button.upload-btn.shown
+{
+  display: block;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper button.upload-btn::before,
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper button.upload-btn::after
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 1002;
+  transition: 3s ease;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper button.upload-btn::after
+{
+  background: #43A047;
+  display: none;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper button.upload-btn::before
+{
+  transform: translateX(-100%);
+  opacity: .3;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper button.upload-btn span, i
+{
+  position: relative;
+  z-index: 1003;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper button.upload-btn.pressed::before
+{
+  transform: translateX(0%);
+}
+
+
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper button.upload-btn:hover
+{
+  background: var(--acc-actv);
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upimg-wrapper
+{
+  position: relative;
+  width: 100%;
+  background: white;
+  display: none;
+  width: 100%;
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+  height: 100px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upimg-wrapper .upload-wrapper
+{
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  width: 60%;
+  max-width: 60%;
+  vertical-align: top;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upimg-wrapper .upload-wrapper:hover span
+{
+  z-index: 1002;
+  opacity: 1;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upimg-wrapper .upload-wrapper img
+{
+  height: 100%;
+  width: auto;
+  position: absolute;
+  z-index: 1001;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upimg-wrapper .name-type-wrapper
+{
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+  word-wrap: break-word;
+  width: 40%;
+  float: right;
+  overflow-y: auto;
+  text-align: center;
+  background: var(--accent);
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upimg-wrapper .name-type-wrapper p
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  max-width: 100%;
+  padding: 10px;
+  font-size: 120%;
+  font-weight: 600;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upimg-wrapper span
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.7);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.file-captcha-wrapper .file-upload-wrapper .upimg-wrapper span i
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 200%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+
+
+.file-captcha-wrapper .file-upload-wrapper .upbtn-wrapper input#imgInp
+{
+  display: none;
+}
+
+
+.file-captcha-wrapper .faq-wrapper
+{
+
+}
+
+.file-captcha-wrapper .knowledgebase-wrapper,
+.file-captcha-wrapper .faq-wrapper .news-wrapper,
+.file-captcha-wrapper .recentpost-wrapper
+{
+  position: relative;
+  margin-bottom: 0px;
+  width: 100%;
+  float: left;
+  padding: 10px;
+}
+
+.file-captcha-wrapper .knowledgebase-wrapper label,
+.file-captcha-wrapper .faq-wrapper .news-wrapper label,
+.file-captcha-wrapper .recentpost-wrapper label
+{
+  padding: 5px 0px 5px 15px;
+  background: #eee;
+  display: block;
+  border-left: 2px solid var(--accent);
+  font-size: 120%;
+  color: var(--accent);
+}
+
+.file-captcha-wrapper .recentpost-wrapper label
+{
+  border-left: 2px solid var(--main);
+  color: var(--main);
+}
+
+.file-captcha-wrapper .news-wrapper label
+{
+  border-left: 2px solid red !important;
+  color: red !important;
+}
+
+.file-captcha-wrapper .faq-wrapper label i
+{
+  padding-right: 10px;
+}
+
+.file-captcha-wrapper .knowledgebase-wrapper ul.kb-list,
+.file-captcha-wrapper .recentpost-wrapper ul.rp-list
+{
+  list-style: none;
+  padding-left: 15px;
+}
+
+
+.file-captcha-wrapper .knowledgebase-wrapper ul.kb-list li a,
+.file-captcha-wrapper .recentpost-wrapper ul.rp-list li a
+{
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 140%;
+}
+
+.file-captcha-wrapper .recentpost-wrapper ul.rp-list li a
+{
+  color: var(--main);
+}
+
+.file-captcha-wrapper .knowledgebase-wrapper ul.kb-list li a:hover,
+.file-captcha-wrapper .recentpost-wrapper ul.rp-list li a:hover
+{
+  color: var(--acc-actv);
+}
+
+
+.file-captcha-wrapper .knowledgebase-wrapper ul.kb-list li p,
+.file-captcha-wrapper .recentpost-wrapper ul.rp-list li p
+{
+  padding-left: 5px;
+  font-size: 110%;
+}
+
+
+.file-captcha-wrapper .faq-wrapper .news-wrapper ul.news-list
+{
+  list-style: none;
+  padding-left: 10px;
+}
+
+.file-captcha-wrapper .faq-wrapper .news-wrapper ul.news-list li
+{
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.file-captcha-wrapper .faq-wrapper .news-wrapper ul.news-list li
+.news-content
+{
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.file-captcha-wrapper .faq-wrapper .news-wrapper ul.news-list li a img
+{
+  width: 80px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.file-captcha-wrapper .faq-wrapper .news-wrapper ul.news-list li
+.news-content a
+{
+  text-decoration: none;
+  font-size: 140%;
+  color: red;
+  font-weight: 600;
+}
+
+.file-captcha-wrapper .faq-wrapper .news-wrapper ul.news-list li
+.news-content p
+{
+  font-size: 120%;
+}

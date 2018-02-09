@@ -1,0 +1,201 @@
+.header-wrapper
+{
+  width: 100%;
+  margin-bottom: 30px;
+  background: url(../../img/bg9.jpg) var(--accent);
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: 100%;
+}
+.header-wrapper .about-wrap
+{
+  text-align: left;
+  width: 100%;
+  max-width: 100%;
+  padding: 20px 0px;
+}
+
+.about-img-wrap
+{
+  position: relative;
+  height: 100%;
+}
+
+.about-img-wrap img
+{
+  position: relative;
+}
+
+
+.header-wrapper .about-wrap h1,
+.mission-wrapper .mission h1,
+.team > h1.meet-title
+{
+  font-size: calc(100% + 20px);
+  margin: 0;
+  color: white;
+  font-weight: 600;
+}
+
+.mission-wrapper
+{
+  background: url(../../img/bg9.jpg) var(--accent);
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.mission-wrapper .mission
+{
+  text-align: center;
+  color: white;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 30px 0px;
+  /*background: rgba(0,0,0,.5);*/
+}
+
+.mission-wrapper .mission p
+{
+  font-size: calc(100% + 5px);
+  margin: 0;
+  font-style: italic;
+  color: #eee;
+  text-shadow: 0 2px 20px rgba(0,0,0,.7);
+}
+.mission-wrapper .mission p span
+{
+  font-family: arial;
+  font-size: calc(100% + 10px);
+  font-weight: 700;
+}
+
+
+.col-lg-6.about h2
+{
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.col-lg-6.about p
+{
+  font-size: calc(100% + 3px);
+}
+
+.long
+{
+    width: 10px;
+    height: 300vh;
+}
+
+
+
+.team
+{
+  position: relative;
+  padding: 10px 30px;
+}
+
+.team img
+{
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.team .staff
+{
+  margin-bottom: 70px;
+  transition: 200ms ease;
+  padding: 20px;
+  border: 1px solid white;
+  background: transparent;
+}
+
+.team .staff:hover
+{
+  box-shadow: 0 5px 10px -3px rgba(0,0,0,.5);
+  border-radius: 5px;
+  border-color: var(--main);
+}
+
+
+.team h1.team-title
+{
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--accent) !important;
+  margin: 60px 0;
+}
+
+
+.team .staff:hover .staff-description h3
+{
+  color: var(--accent);
+}
+
+.team .staff .staff-dp-wrap
+{
+  border-radius: 100%;
+  overflow: hidden;
+  background: url(../../img/dp_bg.jpg) var(--accent);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 230px;
+  height: 230px;
+  max-width: 230px;
+  max-height: 230px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+/*.team .staff .staff-dp-wrap::before
+{
+  content: '';
+  width: 230px;
+  height: 230px;
+  border-radius: 100%;
+  border: 2px solid white;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 200ms ease;
+}*/
+
+.team .staff .staff-dp-wrap img
+{
+  height: 100%;
+}
+
+.team .staff .staff-description p
+{
+  color: grey;
+}
+
+.team .staff .staff-description h3
+{
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 200ms ease;
+}
+
+.team .staff .staff-description h5
+{
+  font-style: italic;
+}
+
+.team hr
+{
+  margin: 0;
+  margin-bottom: 30px;
+}

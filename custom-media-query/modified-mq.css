@@ -1,0 +1,101 @@
+@media all and (min-width:768px),
+print {
+
+  /* Footer */
+  .footer-block .lists-wrapper-block ul
+  {
+    margin-bottom: 0px;
+    padding-right: 40px;
+  }
+  .footer-block .lists-wrapper-block ul li a
+  {
+    font-size: 90%;
+  }
+  .footer-block .lists-wrapper-block ul li h4
+  {
+    font-size: 120%;
+  }
+
+
+  /* Create Shipping Address Page */
+  /* Address control::before font size*/
+  .fieldset > .field .control.address-f::before,
+  .fieldset > .field .control.address-s::before
+  {
+    font-size: calc(100% - 2px);
+  }
+
+  /* Checkout: user not logged in */
+  /* input and select font size */
+  .field .control._with-tooltip input,
+  .fieldset > .field .control input,
+  .fieldset > .field .control select
+  {
+    font-size: calc(100% - 2px);
+  }
+
+  /* login Page */
+  /* forgot password */
+  .actions-toolbar > .secondary a.action
+  {
+    font-size: 80%;
+    margin-top: 10px;
+  }
+
+  .actions-toolbar > .secondary,
+  .actions-toolbar.login > .primary
+  {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+
+  .actions-toolbar > .primary
+  {
+    width: auto;
+    float: left;
+  }
+
+  .actions-toolbar
+  {
+    text-align: center;
+  }
+
+  .fieldset > .field.choice .label
+  {
+    font-size: calc(100% - 4px);
+  }
+
+  .fieldset > .field .checkbox-btn i
+  {
+    font-size: calc(100% - 5px);
+    padding: 10px 5px;
+  }
+
+  .actions-toolbar > .primary.right
+  {
+    float: right;
+  }
+
+  .page-header .wrapper.panel .nav-bar ul li a
+  {
+    font-size: 120%;
+  }
+
+}
+
+
+
+
+@media all and (min-width:1024px),
+print {
+
+}
+
+
+
+
+@media all and (min-width:1440px),
+print {
+
+}

@@ -1,0 +1,45 @@
+@media all and (min-width:768px),
+print {
+  .header-wrapper .about-wrap h1,
+  .mission-wrapper .mission h1
+  {
+    font-size: calc(100% + 40px);
+  }
+
+  .team h1.team-title
+  {
+    font-size: calc(100% + 30px);
+    color: red;
+  }
+
+  .mission-wrapper .mission
+  {
+    width: 75%;
+  }
+
+  .mission-wrapper .mission p
+  {
+    font-size: calc(100% + 10px);
+  }
+
+  .col-lg-6.about p
+  {
+    font-size: calc(100% + 0px);
+  }
+}
+
+
+
+
+@media all and (min-width:1024px),
+print {
+
+}
+
+
+
+
+@media all and (min-width:1440px),
+print {
+
+}

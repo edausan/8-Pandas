@@ -1,0 +1,64 @@
+### add this part under <li class="item product product-item item-product">
+
+<!-- Product specs -->
+<div class="product-specs">
+  <h3><i class="fa fa-list-ul"></i> Features</h3>
+  <ul id="features">
+    <li class="dp-size">
+      <ul id="feature-name">
+        <li>
+          <strong>Display Size</strong>
+          <ol>
+            <li><p><span></span>3.5"</p></li>
+          </ol>
+        </li>
+        <li>
+          <strong>Resolution</strong>
+          <ol>
+            <li><p>320 x 240px</p></li>
+          </ol>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <ul id="feature-name">
+        <li>
+          <strong>Touch Screen</strong>
+          <ol>
+            <li><p>Resistive Touch</p></li>
+          </ol>
+        </li>
+        <li>
+          <strong>Graphic Processor</strong>
+          <ol>
+            <li><p>PIC32MX795F512L 32bit Processor</p></li>
+          </ol>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <ul id="feature-name">
+        <li>
+          <strong>Other</strong>
+          <ol>
+            <li><p>512Kb of Flash</p></li>
+            <li><p>128Kb of SRAM</p></li>
+            <li><p>PWM Amplified Audio + Speaker</p></li>
+            <li><p>Open Source Software</p></li>
+            <li><p>Open Source Software</p></li>
+            <li><p>Open Source Software</p></li>
+            <li><p>Open Source Software</p></li>
+            <li><p>Open Source Software</p></li>
+            <li><p>Open Source Software</p></li>
+          </ol>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <button type="button" name="button" class="btn btn-default">Close <i class="fa fa-chevron-right"></i></button>
+</div>
+<!-- Filter -->
+<div class="filter"></div>

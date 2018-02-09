@@ -1,0 +1,171 @@
+/* header bar */
+body
+{
+  font-size: 10px;
+}
+.panel
+{
+  margin-bottom: 0px;
+  border-radius: 0px;
+  border: none;
+}
+
+/* 8 pandas logo */
+.logo
+{
+  top: 10px;
+}
+
+/* header includes Logo and Cart */
+.header.content.home-page
+{
+  padding-top: 0px;
+  top: -60px;
+}
+
+
+.block-search input
+{
+  height: 40px;
+}
+
+
+/* navbar */
+.navbar .container-fluid .collapse .eqi-container, .navbar .container-fluid .collapsing .eqi-container
+{
+  position: relative;
+  padding-left: 0px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+
+/* cart checkout button */
+.cart-wrapper .checkout-btn
+{
+  color: white;
+  text-decoration: none;
+}
+
+
+a.showcart
+{
+  color: white;
+}
+
+.minicart-wrapper
+{
+  top: 0px;
+  color: white !important;
+  font-size: 20px !important;
+}
+
+.copyright
+{
+  background: #111111;
+}
+
+.columns .column.main
+{
+  padding-bottom: 0px;
+  /*padding: 0 20px;*/
+}
+
+
+.nav-toggle
+{
+  font-size: calc(100% + 6px);
+}
+
+.label .fa-search
+{
+  color: white !important;
+  font-size: 20px !important;
+}
+
+
+.footer.content
+{
+  border-top: none;
+}
+
+.product-tabs ul > li
+{
+  margin-bottom: 0px !important;
+}
+
+
+.opc-wrapper .form-login,
+.opc-wrapper .form-shipping-address
+{
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 0px;
+  background: transparent;
+}
+
+.page-main
+{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+
+.cart.table-wrapper .product-item-name+.item-options
+{
+  margin-top: 0px;
+}
+
+.cart-summary
+{
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 0px;
+  box-shadow: 0 1px 1px -3px rgba(0, 0, 0, 0);
+  transition: 200ms ease;
+  border: 1px solid var(--main);
+  background: white;
+}
+
+.cart-summary:hover 
+{
+  box-shadow: 0 8px 10px -3px rgba(0, 0, 0, 0.5);
+}
+
+.cart-summary > .title
+{
+  background: var(--main);
+  margin: 0;
+  padding: 5px 20px;
+  color: white;
+}
+
+.page-main .cart-summary .block
+{
+  padding: 5px 20px;
+}
+.cart-summary .block > .title
+{
+  border-top: none;
+  padding: 0px;
+}
+
+.cart-total-sample, .cart-total-order
+{
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.cart-totals
+{
+  padding: 0px;
+}
+
+
+.opc-sidebar
+{
+  margin: 0px;
+}

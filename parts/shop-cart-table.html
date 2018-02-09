@@ -1,0 +1,99 @@
+<!-- Table wrapper -->
+<div class="cart table-wrapper">
+
+    <!-- Table -->
+    <table id="shopping-cart-table" class="cart items data table">
+      <caption role="heading" aria-level="2" class="table-caption">Shopping Cart Items</caption>
+
+      <!-- Table Head -->
+      <thead>
+          <tr>
+              <th class="col item" scope="col"><span>Item</span></th>
+              <th class="col price" scope="col"><span>Price</span></th>
+              <th class="col qty" scope="col"><span>Qty</span></th>
+              <th class="col subtotal" scope="col"><span>Subtotal</span></th>
+          </tr>
+      </thead>
+
+      <!-- Table Body -->
+      <tbody class="cart item">
+        <!-- Item Info -->
+        <tr class="item-info">
+            <!-- Product Image -->
+            <td data-th="Item" class="col item">
+              <a href="http://localhost/8Pandas/primo-endurance-tank.html" title="Primo Endurance Tank" tabindex="-1" class="product-item-photo">
+                <span class="product-image-container" style="width:165px;">
+                  <span class="product-image-wrapper" style="padding-bottom: 100%;">
+                    <img class="product-image-photo" src="img/1.png" alt="4Discovery-35" width="165">
+                  </span>
+                </span>
+              </a>
+
+              <div class="product-item-details">
+                  <strong class="product-item-name">
+                    <a href="http://localhost/8Pandas/primo-endurance-tank.html">4Discovery-35</a>
+                  </strong>
+                  <dl class="item-options">
+                    <dt>Display Size</dt>
+                    <dd>3.5"</dd>
+                    <dt>Resolution</dt>
+                    <dd>240 x 320px</dd>
+                  </dl>
+              </div>
+            </td>
+
+            <!-- Product Name -->
+            <td class="col price" data-th="Price">
+              <span class="price-excluding-tax" data-label="Excl. Tax">
+                <span class="cart-price">
+                  <span class="price">$29.00</span>
+                </span>
+              </span>
+            </td>
+
+            <!-- Quantity -->
+            <td class="col qty" data-th="Qty">
+              <div class="field qty">
+                  <label class="label" for="cart-5-qty">
+                      <span>Qty</span>
+                  </label>
+                  <div class="control qty">
+                      <input id="cart-5-qty" name="cart[5][qty]" data-cart-item-id="MT03-XS-Blue" value="1" size="4" title="Qty" class="input-text qty" maxlength="12" data-validate="{required:true,'validate-greater-than-zero':true}" data-role="cart-item-qty" type="number">
+                  </div>
+              </div>
+            </td>
+
+            <!-- Subtotal -->
+            <td class="col subtotal" data-th="Subtotal">
+              <span class="price-excluding-tax" data-label="Excl. Tax">
+                <span class="cart-price">
+                  <span class="price">$29.00</span>
+                </span>
+
+              </span>
+            </td>
+        </tr>
+        <!-- Item Info -->
+
+        <!-- Edit and Delete -->
+        <tr class="item-actions">
+          <td colspan="100">
+            <div class="actions-toolbar">
+              <div id="gift-options-cart-item-5" data-bind="scope:'giftOptionsCartItem-5'" class="gift-options-cart-item">
+                <!-- ko template: getTemplate() --><!-- /ko -->
+              </div>
+              <a class="action action-edit" href="http://localhost/8Pandas/checkout/cart/configure/id/5/product_id/675/" title="Edit item parameters">
+                <span>Edit</span>
+             </a>
+             <a href="#" title="Remove item" class="action action-delete" data-post="{&quot;action&quot;:&quot;http:\/\/localhost\/8Pandas\/checkout\/cart\/delete\/&quot;,&quot;data&quot;:{&quot;id&quot;:&quot;5&quot;,&quot;uenc&quot;:&quot;aHR0cDovL2xvY2FsaG9zdC84UGFuZGFzL2NoZWNrb3V0L2NhcnQv&quot;}}">
+               <span>Remove item</span>
+             </a>
+            </div>
+          </td>
+        </tr>
+        <!-- Edit and Delete -->
+      </tbody>
+    </table>
+
+</div>
+<!-- Table wrapper -->
